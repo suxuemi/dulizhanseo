@@ -1,0 +1,235 @@
+{
+  "main": {
+    "id": "75ecaa556549c140",
+    "type": "split",
+    "children": [
+      {
+        "id": "14dbf25396fc427f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7dc8569b0b796a4a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "3e65a69a173c3766",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/website/jianzhanjiaocheng2023-6-houxujiaocheng.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "jianzhanjiaocheng2023-6-houxujiaocheng"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9fe2c5e2778537cd",
+    "type": "split",
+    "children": [
+      {
+        "id": "57334ae6928110cd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9c9bec7f4e009b12",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "de34650cd579b81c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "8d031278dc44f705",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 549.5
+  },
+  "right": {
+    "id": "281aa72ead727e3c",
+    "type": "split",
+    "children": [
+      {
+        "id": "291baf10a3ba3c1c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5bb32692811e25da",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/website/jianzhanjiaocheng2023-6-houxujiaocheng.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "jianzhanjiaocheng2023-6-houxujiaocheng 的反向链接列表"
+            }
+          },
+          {
+            "id": "2a63b30432a85d37",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "README 的出链列表"
+            }
+          },
+          {
+            "id": "c16a9c1acf299e06",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "e20fd54e628e6317",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/website/jianzhanjiaocheng2023-6-houxujiaocheng.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "jianzhanjiaocheng2023-6-houxujiaocheng 的大纲"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "3e65a69a173c3766",
+  "lastOpenFiles": [
+    "docs/website/jianzhanjiaocheng2023-5-anzhuangguanliruanjian.md",
+    "docs/website/jianzhanjiaocheng2023-4-lianjiefuwuqi.md",
+    "docs/website/jianzhanjiaocheng2023-3-yuming.md",
+    "docs/website/jianzhanjiaocheng2023-1-kaishizhiqian.md",
+    "docs/website/wordpress-website-building-and-seo-optimization-13.md",
+    "docs/website/wordpress-website-building-and-seo-optimization-12.md",
+    "docs/website/wordpress-website-building-and-seo-optimization-11.md",
+    "docs/website/wordpress-website-building-and-seo-optimization-10.md",
+    "docs/website/wordpress-website-building-and-seo-optimization-9.md",
+    "docs/website/wordpress-website-building-and-seo-optimization-8.md",
+    "docs/website/wordpress-website-building-and-seo-optimization-7.md",
+    "docs/website/wordpress-website-building-and-seo-optimization-6.md",
+    "docs/website/wordpress-website-building-and-seo-optimization-1.md",
+    "docs/website/wordpress-website-building-and-seo-optimization-3.md",
+    "docs/website/wordpress-website-building-and-seo-optimization-4.md",
+    "docs/website/wordpress-website-building-and-seo-optimization-5.md",
+    "docs/website/wordpress-website-building-and-seo-optimization-2.md",
+    "docs/website/stackable-blocks-premium.md",
+    "node_modules/varint/test.js",
+    "node_modules/varint/README.md",
+    "node_modules/varint/package.json",
+    "node_modules/varint/length.js",
+    "node_modules/varint/index.js",
+    "node_modules/varint/encode.js",
+    "node_modules/varint/bench.js",
+    "node_modules/varint/decode.js",
+    "node_modules/varint",
+    "node_modules/@bufbuild/protobuf/package.json",
+    "node_modules/eslint/package.json",
+    "node_modules/@vue/devtools-api/README.md",
+    "node_modules/whatwg-mimetype/README.md",
+    "node_modules/character-entities-html4/readme.md",
+    "node_modules/is-plain-obj/readme.md",
+    "node_modules/parse5-htmlparser2-tree-adapter/README.md",
+    "node_modules/mini-css-extract-plugin/README.md",
+    "node_modules/@vuepress/bundlerutils/README.md",
+    "node_modules/@vuepress/plugin-back-to-top/lib/client/styles/back-to-top.svg",
+    "node_modules/union/examples/simple/favicon.png",
+    "node_modules/union/union.png",
+    "node_modules/serve-index/public/icons/page_world.png",
+    "node_modules/serve-index/public/icons/page_word.png",
+    "node_modules/serve-index/public/icons/page_white_zip.png",
+    "node_modules/serve-index/public/icons/page_white_world.png",
+    "node_modules/serve-index/public/icons/page_white_word.png",
+    "node_modules/serve-index/public/icons/page_white_wrench.png",
+    "node_modules/serve-index/public/icons/page_white_width.png"
+  ]
+}

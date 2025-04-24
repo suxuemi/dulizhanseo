@@ -3,9 +3,9 @@ import { VERSION } from '../meta.js'
 
 export const navbarEn: NavbarOptions = [
   {
-    text: 'Guide',
+    text: '网站营销',
     children: [
-      '/guide/introduction.md',
+      '/website/2023-2.md',
       '/guide/getting-started.md',
       '/guide/configuration.md',
       '/guide/page.md',
@@ -21,10 +21,10 @@ export const navbarEn: NavbarOptions = [
     ],
   },
   {
-    text: 'Reference',
+    text: '工具分享',
     children: [
       {
-        text: 'Core',
+        text: 'Web',
         children: [
           {
             text: 'CLI',
@@ -63,10 +63,10 @@ export const navbarEn: NavbarOptions = [
   },
 
   {
-    text: 'Learn More',
+    text: '更多资源',
     children: [
       {
-        text: 'Advanced',
+        text: '进阶',
         children: [
           '/advanced/architecture.md',
           '/advanced/plugin.md',
@@ -78,19 +78,15 @@ export const navbarEn: NavbarOptions = [
         ],
       },
       {
-        text: 'Resources',
+        text: '学习交流',
         children: [
           {
-            text: 'Ecosystem',
-            link: 'https://ecosystem.vuejs.press/',
+            text: '讨论区',
+            link: 'https://bbs.maozhishi.com/',
           },
           {
-            text: 'MarketPlace',
-            link: 'https://marketplace.vuejs.press',
-          },
-          {
-            text: 'Contributing Guide',
-            link: 'https://github.com/vuepress/core/blob/main/CONTRIBUTING.md',
+            text: '来发信',
+            link: 'https://www.laifaxin.com',
           },
         ],
       },
