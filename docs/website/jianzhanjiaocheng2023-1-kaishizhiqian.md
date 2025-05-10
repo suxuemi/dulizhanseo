@@ -14,9 +14,9 @@ description: This is the introductory part of the 2023 website building tutorial
 **建个站仅需 399 元！**① 服务器：324 元/年 ② 域名：75 元/年 ③ 教程：免费。
 <u>最重要的是，服务器和域名都在自己手里，不怕任何人坐地起价！</u>
 
-## 一、建站准备 {#website-preparation}
+## 一、建站准备
 
-### 1.1、 账号注册 {#account-registration}
+### 1.1、 账号注册 
 
 服务器：[https://laifa.xin/txy](https://laifa.xin/txy) 不限新老：[https://curl.qcloud.com/OIJxBnhf](https://curl.qcloud.com/OIJxBnhf) 新用户：[https://curl.qcloud.com/bX0DAwi4](https://curl.qcloud.com/bX0DAwi4)
 

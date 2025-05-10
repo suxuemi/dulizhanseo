@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/website/jianzhanjiaocheng2023-6-houxujiaocheng.md",
+                "file": "docs/website/jianzhanjiaocheng2023-1-kaishizhiqian.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "jianzhanjiaocheng2023-6-houxujiaocheng"
+              "title": "jianzhanjiaocheng2023-1-kaishizhiqian"
             }
           }
         ],
@@ -93,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 549.5
+    "width": 262.5
   },
   "right": {
     "id": "281aa72ead727e3c",
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/website/jianzhanjiaocheng2023-6-houxujiaocheng.md",
+                "file": "docs/website/jianzhanjiaocheng2023-1-kaishizhiqian.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "jianzhanjiaocheng2023-6-houxujiaocheng 的大纲"
+              "title": "jianzhanjiaocheng2023-1-kaishizhiqian 的大纲"
             }
           }
         ],
@@ -185,6 +185,9 @@
   },
   "active": "3e65a69a173c3766",
   "lastOpenFiles": [
+    "docs/guide/assets.md",
+    "docs/edm/google-search-customer.md",
+    "docs/website/jianzhanjiaocheng2023-6-houxujiaocheng.md",
     "docs/website/jianzhanjiaocheng2023-5-anzhuangguanliruanjian.md",
     "docs/website/jianzhanjiaocheng2023-4-lianjiefuwuqi.md",
     "docs/website/jianzhanjiaocheng2023-3-yuming.md",
@@ -218,9 +221,6 @@
     "node_modules/whatwg-mimetype/README.md",
     "node_modules/character-entities-html4/readme.md",
     "node_modules/is-plain-obj/readme.md",
-    "node_modules/parse5-htmlparser2-tree-adapter/README.md",
-    "node_modules/mini-css-extract-plugin/README.md",
-    "node_modules/@vuepress/bundlerutils/README.md",
     "node_modules/@vuepress/plugin-back-to-top/lib/client/styles/back-to-top.svg",
     "node_modules/union/examples/simple/favicon.png",
     "node_modules/union/union.png",
