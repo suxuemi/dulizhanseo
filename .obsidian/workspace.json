@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "14dbf25396fc427f",
+        "id": "fbaffdad0fd2c08d",
         "type": "tabs",
         "children": [
           {
-            "id": "7dc8569b0b796a4a",
+            "id": "ebc28d36e727074b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/README.md",
+                "file": "docs/website/2023-2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "3e65a69a173c3766",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/website/jianzhanjiaocheng2023-1-kaishizhiqian.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "jianzhanjiaocheng2023-1-kaishizhiqian"
+              "title": "2023-2"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -157,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/website/jianzhanjiaocheng2023-1-kaishizhiqian.md",
+                "file": "docs/website/2023-2.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "jianzhanjiaocheng2023-1-kaishizhiqian 的大纲"
+              "title": "2023-2 的大纲"
             }
           }
         ],
@@ -183,15 +168,18 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3e65a69a173c3766",
+  "active": "ebc28d36e727074b",
   "lastOpenFiles": [
+    "docs/website/2023-2.md",
+    "docs/website/add-a-jump-link-to-the-picture.md",
+    "docs/README.md",
+    "docs/website/jianzhanjiaocheng2023-1-kaishizhiqian.md",
     "docs/guide/assets.md",
     "docs/edm/google-search-customer.md",
     "docs/website/jianzhanjiaocheng2023-6-houxujiaocheng.md",
     "docs/website/jianzhanjiaocheng2023-5-anzhuangguanliruanjian.md",
     "docs/website/jianzhanjiaocheng2023-4-lianjiefuwuqi.md",
     "docs/website/jianzhanjiaocheng2023-3-yuming.md",
-    "docs/website/jianzhanjiaocheng2023-1-kaishizhiqian.md",
     "docs/website/wordpress-website-building-and-seo-optimization-13.md",
     "docs/website/wordpress-website-building-and-seo-optimization-12.md",
     "docs/website/wordpress-website-building-and-seo-optimization-11.md",
@@ -218,9 +206,6 @@
     "node_modules/@bufbuild/protobuf/package.json",
     "node_modules/eslint/package.json",
     "node_modules/@vue/devtools-api/README.md",
-    "node_modules/whatwg-mimetype/README.md",
-    "node_modules/character-entities-html4/readme.md",
-    "node_modules/is-plain-obj/readme.md",
     "node_modules/@vuepress/plugin-back-to-top/lib/client/styles/back-to-top.svg",
     "node_modules/union/examples/simple/favicon.png",
     "node_modules/union/union.png",

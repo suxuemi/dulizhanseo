@@ -10,7 +10,7 @@ description: 本文介绍了当域名托管在Cloudflare后，如何添加阿里
 
 ![阿里企业邮箱后台提示“域名未验证”](https://cos.files.maozhishi.com/xp/xz1666583439068.png)
 
-## 找到域名 {#find-domain}
+## 找到域名 
 
 进入cloudflare后台，找到需要添加解析记录的域名。
 
