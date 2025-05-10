@@ -28,26 +28,26 @@ description: This is the introductory part of the 2023 website building tutorial
 
 需要信用卡或 paypal
 
-### 1.2、软件 {#software}
+### 1.2、软件 
 
 连接你的服务器，需要先安装 ssh 客户端。
 
 - finalshell-win系统：[https://laifa.xin/fs-win](https://laifa.xin/fs-win) windows 系统选这个
 - finalshell-mac系统：[https://laifa.xin/fs-mac](https://laifa.xin/fs-mac) 苹果电脑选这个
 
-### 1.3、序列号 {#serial-numbers}
+### 1.3、序列号 
 
 appnode 和 blocksy pro 的序列号，可以联系我们免费领。
 
 ![微信联系方式二维码，用于领取序列号](https://cos.files.maozhishi.com/public/attachments/xsj/2023-11-14-1699950533945.png)
 
-## 二、建站教程 {#website-building-tutorial}
+## 二、建站教程
 
 完整建站教程，可以关注<u>#视频号：不做头发的托尼老师</u>。
 
 ==**开始之前，请先看 2.1、最新内容，然后再看视频号里的教程。**==
 
-### 2.1、最新内容 {#latest-content}
+### 2.1、最新内容
 
 开始之前，根据文字教程，先购买服务器、域名，以及基础操作，然后再看上边的教程。
 
@@ -61,7 +61,7 @@ appnode 和 blocksy pro 的序列号，可以联系我们免费领。
 
 **看完上边四个，然后在回头看视频里的教程！！！**
 
-### 2.2、扫码关注 {#scan-to-follow}
+### 2.2、扫码关注
 
 微信扫码关注视频号
 
