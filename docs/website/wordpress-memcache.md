@@ -11,7 +11,7 @@ description: 本教程指导用户如何在AppNode后台安装和配置Memcache�
 进入appnode后台，点击网址，找到备份，点击：立即备份
 ![AppNode后台网站备份界面，点击“立即备份”](https://cos.files.maozhishi.com/小书匠/1702359632343.png)
 
-### 一、安装与开启Memcache {#section-1-install-enable-memcache}
+### 一、安装与开启Memcache 
 
 打开appnode后台，左侧软件管家，所有软件里搜索Memcache，点击一键安装
 
@@ -37,7 +37,7 @@ description: 本教程指导用户如何在AppNode后台安装和配置Memcache�
 
 ![AppNode Memcache启动成功状态](https://cos.files.maozhishi.com/小书匠/1702359632349.png)
 
-### 二、 PHP扩展pecl-memcached {#section-2-php-extension-pecl-memcached}
+### 二、 PHP扩展pecl-memcached 
 
 返回网站管理--组件管理--设置PHP
 
@@ -55,7 +55,7 @@ description: 本教程指导用户如何在AppNode后台安装和配置Memcache�
 
 ![AppNode安装pecl-memcached扩展成功提示](https://cos.files.maozhishi.com/小书匠/1702359632353.png)
 
-### 三、安装插件 {#section-3-install-plugin}
+### 三、安装插件 
 
 返回网站管理，打开文件
 
@@ -95,7 +95,7 @@ define('WP_CACHE', true);
 点击编辑，添加到第79行（或其他合适位置，通常在`/* That's all, stop editing! Happy publishing. */`之前），再保存
 ![编辑wp-config.php文件，添加WP_CACHE定义并保存](https://cos.files.maozhishi.com/小书匠/1702359632364.png)
 
-### 四、重启生效 {#section-4-restart-services}
+### 四、重启生效 
 
 再次返回，网站管理--组件管理--重启php和nginx
 
@@ -105,7 +105,7 @@ define('WP_CACHE', true);
 强化扩展里有两个插件 (LiteSpeed Cache 和 WP Optimize)
 ![WordPress后台插件列表截图，显示LiteSpeed Cache和WP Optimize](https://cos.files.maozhishi.com/小书匠/1702359632419.png)
 
-### 五、常见问题 {#section-5-common-issues}
+### 五、常见问题 
 
 此站点遇到了致命错误。
 

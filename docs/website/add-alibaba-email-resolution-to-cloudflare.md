@@ -16,7 +16,7 @@ description: 本文介绍了当域名托管在Cloudflare后，如何添加阿里
 
 ![Cloudflare后台域名列表截图](https://cos.files.maozhishi.com/xp/xz1666583439069.png)
 
-## 添加记录 {#add-records}
+## 添加记录 
 
 添加mx解析记录，由于添加的是一级域名，所以，name写的是`@`,type选择`MX`，mail server 写我们要添加的阿里云服务器记录，阿里云企业邮箱我们需要添加两个解析记录
 
@@ -32,7 +32,7 @@ mxw.mxchina.com （优先级：10）
 
 ![Cloudflare DNS记录列表，显示已添加的两条阿里邮箱MX记录](https://cos.files.maozhishi.com/xp/xz1666583439071.png)
 
-## 检查解析是否生效 {#check-resolution}
+## 检查解析是否生效 
 
 我们返回阿里云后台，点击“检查域名”，检测成功会出现以下提示“域名验证成功，可以正常收发邮件”
 

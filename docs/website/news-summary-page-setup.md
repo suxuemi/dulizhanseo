@@ -10,22 +10,22 @@ description: 本文解决了WordPress网站新建的News（新闻）汇总页面
 
 ![新建的News新闻汇总页面显示空白，没有文章列表](https://cos.files.maozhishi.com/public/attachments/lfx/1669718194651.png)
 
-## 1、登录前端页面 {#login-frontend-page}
+## 1、登录前端页面 
 
 登录前端，进入编辑页面--点击➕
 ![WordPress前端页面，点击“编辑页面”，然后点击添加区块按钮(+)](https://cos.files.maozhishi.com/public/attachments/lfx/1669718194652.png)、
 
-## 2、查找posts区块 {#find-posts-block}
+## 2、查找posts区块 
 
 再区块页面找到posts
 ![在区块选择器中搜索并找到“Posts”区块](https://cos.files.maozhishi.com/public/attachments/lfx/1669718194653.png)
 
-## 3、添加posts区块 {#add-posts-block}
+## 3、添加posts区块 
 
 点击进入posts区块，选择想要的区块样式。
 ![选择一个合适的文章列表样式（Posts区块）](https://cos.files.maozhishi.com/public/attachments/lfx/1669718194654.png)
 
-## 4、发布 {#publish}
+## 4、发布 
 
 点击发布，即可完成新闻页面设置。
 ![添加文章列表区块后，点击“更新”或“发布”按钮保存页面](https://cos.files.maozhishi.com/public/attachments/lfx/1669718194655.png)

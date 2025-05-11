@@ -6,22 +6,22 @@ description: 本文详细介绍了在WordPress网站导航栏中添加WhatsApp�
 
 > # wordpress建站网站搭建完成后，为了让客户能够通过网站找到我们，我们就需要在网站中添加即时聊天工具，他们能够很好帮助客户与我们建立沟通联系，WhatsApp是最流行的im聊天工具之一，本文以在导航中添加whatsapp聊天入口为例给大家做简单演示。
 
-## 导航添加whatsapp聊天入口 {#add-whatsapp-entry-in-navigation}
+## 导航添加whatsapp聊天入口 
 
 很多wordpress网站打开时并没有即时通讯的入口，或者即时通讯显示在网站的底部，很不明显。
 ![网站底部没有明显的即时通讯入口示例](https://cos.files.maozhishi.com/xp/xz1665473455583.png)
 
-### 1、进入自定义 {#enter-customizer}
+### 1、进入自定义 
 
 首先我们要登录有网站管理权限的账号，在页面前台首页左上角，我们可以看到“自定义”入口，我们点击进入自定义页面
 ![WordPress网站前端顶部工具栏，点击“自定义”](https://cos.files.maozhishi.com/xp/xz1665473455584.png)
 
-### 2、进入页眉 {#enter-header-settings}
+### 2、进入页眉 
 
 找到自定义菜单下的页眉选项
 ![WordPress自定义界面，选择“页眉”设置](https://cos.files.maozhishi.com/xp/xz1665473455585.png)
 
-### 3、菜单栏添加入口（推荐⭐） {#add-entry-in-main-menu}
+### 3、菜单栏添加入口（推荐⭐） 
 
 > 先来看下效果，在菜单栏（对应页眉的主要行）添加，效果更醒目
 
@@ -34,7 +34,7 @@ description: 本文详细介绍了在WordPress网站导航栏中添加WhatsApp�
 
 ![设置页眉按钮：大小、标签、链接、WhatsApp图标](https://cos.files.maozhishi.com/xp/xz1665473455599.png)
 
-### 3.1设置whatsapp通讯链接 {#set-whatsapp-communication-link-main}
+### 3.1设置whatsapp通讯链接 
 
 > > 设置规则以13888888888为例，将下列链接填入后面的空白方框内
 > > https://api.whatsapp.com/send?phone=8613888888888
@@ -47,7 +47,7 @@ description: 本文详细介绍了在WordPress网站导航栏中添加WhatsApp�
 页面会自动跳转到如下所示，表明我们已经设置成功
 ![跳转到WhatsApp聊天界面，验证链接设置成功](https://cos.files.maozhishi.com/xp/xz1665473455602.png)
 
-### 4、顶部行添加入口 {#add-entry-in-top-row}
+### 4、顶部行添加入口 
 
 > 在导航上方（顶部行）添加入口，相对主要行的设置，并不是那么醒目，优点是可以设置多种即时通讯工具。
 
@@ -57,7 +57,7 @@ description: 本文详细介绍了在WordPress网站导航栏中添加WhatsApp�
 完成页面位置设置，点击发布
 ![完成顶部行社交图标位置设置并点击发布](https://cos.files.maozhishi.com/xp/xz1665473455605.png)
 
-### 4.1设置whatsapp通讯链接 {#set-whatsapp-communication-link-top}
+### 4.1设置whatsapp通讯链接 
 
 此时网站上有显示的通讯工具图标，但点击会直接跳转到本身的网站之上，并不能与我们自己的账号建立联系，所以我们需要设置账号链接。
 返回自定义界面找到常规选项

@@ -4,13 +4,13 @@ link: https://www.dulizhanseo.com/wps-hide-login-wps-limit-login-403-fordden
 description: 本文介绍了解决在WordPress后台启用WPS Hide Login和WPS Limit Login插件后，登录时出现403 Forbidden错误的方法。通过问题定位和AppNode后台操作，指导用户修改插件文件夹名称以禁用插件，并重载服务，最终恢复后台登录。
 ---
 
-## 一、问题描述 {#problem-description}
+## 一、问题描述 
 
 > 当我们在wordpress后台安装了插件开启WPS Hide Login和WPS Limit Login后，再次登录后台网站出现提示：403 Forbidden（具体见下图）
 
 ![WordPress后台登录时出现403 Forbidden错误页面截图](https://cos.files.maozhishi.com/public/attachments/lfx/1665411976217.png)
 
-## 二、问题定位 {#problem-location}
+## 二、问题定位 
 
 通过上图，我们可以得到以下信息：
 
@@ -19,17 +19,17 @@ description: 本文介绍了解决在WordPress后台启用WPS Hide Login和WPS L
 3.  唯一能导致出现403访问拒绝报错的，只有插件相关，那么结合我们之前安装的wordpress插件，可以判断问题可能是由于WPS Limit Login(限制登录)导致，那么我们需要关闭掉这个插件，同时为了更简单，我们把WPS Hide Login（修改后台登录路径用）也给关闭掉。
 4.  我们已经无法进入wordpress后台，我们该如何关闭插件呢？我们只能通过ftp或者appnode访问服务器文件目录，删除或者修改插件文件目录的名称，让插件失效即可。本文演示的是使用appnode进行插件关闭的操作。
 
-## 三、具体操作 {#specific-operations}
+## 三、具体操作 
 
 > 插件目录一般位于网站文件根目录`/wp-content/plugins/`下，这里我们通过appnode进入这个目录并找到对应插件文件夹进行修改
 
-### 3.1、登录appnode {#login-appnode}
+### 3.1、登录appnode 
 
 - 登录appnode后台点击网站后面的 文件 按钮
 
 ![AppNode后台网站列表，点击文件按钮](https://cos.files.maozhishi.com/public/attachments/lfx/1665411976277.png)
 
-### 3.2、进入文件目录 {#enter-file-directory}
+### 3.2、进入文件目录 
 
 - 进入文件夹后，找到最下面的 www文件夹（www的保存网站文件的根目录）
 
@@ -45,7 +45,7 @@ description: 本文介绍了解决在WordPress后台启用WPS Hide Login和WPS L
 
 ![AppNode文件管理器，进入 /www/wp-content/plugins/ 目录](https://cos.files.maozhishi.com/public/attachments/lfx/1665411976275.png)
 
-### 3.3、修改文件名称 {#modify-file-name}
+### 3.3、修改文件名称 
 
 - 修改时鼠标点到这一行，会出现下面图标
 
@@ -55,7 +55,7 @@ description: 本文介绍了解决在WordPress后台启用WPS Hide Login和WPS L
 
 ![AppNode文件管理器，修改插件文件夹名称的弹窗](https://cos.files.maozhishi.com/public/attachments/lfx/1665411976207.png)
 
-### 3.4、重载服务 {#reload-service}
+### 3.4、重载服务 
 
 > 文件名称修改完成，并不是立刻就能登录后台，还要进行重要的一步，重载服务。
 
@@ -67,7 +67,7 @@ description: 本文介绍了解决在WordPress后台启用WPS Hide Login和WPS L
 
 ![AppNode服务管理界面，点击重载服务按钮](https://cos.files.maozhishi.com/public/attachments/lfx/1665411976216.png)
 
-### 3.5、重新登录网站后台 {#relogin-website-backend}
+### 3.5、重新登录网站后台 
 
 - 然后我们用原始的网址路径进入网站后台 /wp-admin/结尾
 
@@ -81,7 +81,7 @@ https: //｛你网站域名｝/wp-admin/;;
 
 ![WordPress后台插件列表，显示问题插件已变为未启用状态](https://cos.files.maozhishi.com/public/attachments/lfx/1665411976278.png)
 
-### 3.6、删除后下载重新配置 {#delete-reinstall-reconfigure}
+### 3.6、删除后下载重新配置 
 
 - 因为插件已经配置过，如果你启用的话，可能还会导致403问题，那么我们建议你删除后重新安装
 

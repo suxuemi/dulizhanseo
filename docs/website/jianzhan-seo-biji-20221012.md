@@ -18,7 +18,7 @@ description: 本文记录了2022年10月12日为询盘网（xunpan.wang）开启
 
 4.新增统计：百度统计 + Google Analytics
 
-## 一、关联Google Search Console {#associate-google-search-console}
+## 一、关联Google Search Console 
 
 点击进入谷歌搜索页面的提示进入，也可以点击这个链接进入：[https://search.google.com/search-console](https://search.google.com/search-console) （需要个Google账号）
 
@@ -36,7 +36,7 @@ description: 本文记录了2022年10月12日为询盘网（xunpan.wang）开启
 
 ![Google Search Console 网域所有权已自动验证成功](https://cos.files.maozhishi.com/wp-content/uploads/1665557953303.png)
 
-## 二、梳理别名 {#organize-slugs}
+## 二、梳理别名 
 
 开启收录之前，我们要梳理文章以及文章分类和标签，检查别名是否存在问题，比如中文,我们要统一改成英文数字组合的形式
 
@@ -46,13 +46,13 @@ description: 本文记录了2022年10月12日为询盘网（xunpan.wang）开启
 
 ![WordPress后台文章列表，文章别名已统一为英文数字组合](https://cos.files.maozhishi.com/wp-content/uploads/1665559940481.png)
 
-## 三、开放收录 {#enable-indexing}
+## 三、开放收录 
 
 > 参照下图，“对搜索引擎的可见性”，我们取消勾选“建议搜索引擎不索引本站点”
 
 ![WordPress后台阅读设置，取消勾选“建议搜索引擎不索引本站点”](https://cos.files.maozhishi.com/wp-content/uploads/1665560091013.png)
 
-## 四、生成sitemap {#generate-sitemap}
+## 四、生成sitemap 
 
 我们进入seo菜单下的“xml -html sitemap”，先点击save change，生成sitemap地图。
 
@@ -62,7 +62,7 @@ description: 本文记录了2022年10月12日为询盘网（xunpan.wang）开启
 
 ![浏览器中查看生成的XML站点地图内容](https://cos.files.maozhishi.com/wp-content/uploads/1665560440801.png)
 
-## 五、提交网站地图 {#submit-sitemap}
+## 五、提交网站地图 
 
 我们要把网站地图提交到Google Search Console，我们进入Google Search Console下的“站点地图”界面，贴入我们的网站地图网址并提交。
 
@@ -76,7 +76,7 @@ description: 本文记录了2022年10月12日为询盘网（xunpan.wang）开启
 
 不管以上问题了，明天再来看看啥情况。接下来我们开始添加谷歌统计和百度统计
 
-## 六、添加谷歌统计（Google Analytics） {#add-google-analytics}
+## 六、添加谷歌统计（Google Analytics） 
 
 Google Analytics：[https://analytics.google.com/analytics/](https://analytics.google.com/analytics/)
 

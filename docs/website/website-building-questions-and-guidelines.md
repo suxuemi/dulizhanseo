@@ -4,7 +4,7 @@ link: https://www.dulizhanseo.com/website-building-questions-and-guidelines
 description: 本文汇总了WordPress建站新手在网站搭建和编辑过程中可能遇到的常见问题，并提供了相关教程和解决方案的链接，涵盖建站基础、SEO优化、技术问题处理、页面编辑、插件配置及建站工具推荐。
 ---
 
-## 一、搭建 {#section-1-setup}
+## 一、搭建 
 
 **WordPress建站与SEO优化系列:**
 
@@ -42,7 +42,7 @@ description: 本文汇总了WordPress建站新手在网站搭建和编辑过程�
 | 12   | [网站自动备份云端与一键数据还原-让新手也能无忧建站！](https://www.dulizhanseo.com/website-backup-and-restore)                          |
 | 13   | [appnode后台显示服务器内部错误：授权检测失败！解决方案](https://www.dulizhanseo.com/appnode-authorization-detection-failure-solution/) |
 
-## 二、编辑 {#section-2-editing}
+## 二、编辑 
 
 [wordpress小白建站后如何进行下步操作 (xunpan.wang)](https://www.dulizhanseo.com/website-editorial-guidelines/)
 
@@ -81,7 +81,7 @@ description: 本文汇总了WordPress建站新手在网站搭建和编辑过程�
 | 29   | [wp建站登陆后台-建立数据库连接时出错](https://www.dulizhanseo.com/error-establishing-a-database-connection/)                                        |
 | 30   | [wordpress发送询盘跳转到感谢页面(Contact Form 7)](https://www.dulizhanseo.com/submit-the-form-to-jump-to-the-thank-you-page/)                       |
 
-## 三、插件 {#section-3-plugins}
+## 三、插件 
 
 **插件常见问题与教程:**
 
@@ -98,7 +98,7 @@ description: 本文汇总了WordPress建站新手在网站搭建和编辑过程�
 | 9    | [开启WPS Limit Login后，频繁出现Too many failed login attempts提醒](https://www.dulizhanseo.com/wps-limit-login-too-many-failed-login-attempts/) |
 | 10   | [Post Smtp的Gmail/Google Workspace设置方法](https://www.dulizhanseo.com/post-smtp-gmail-google-workspace)                                        |
 
-## 四、建站工具 {#section-4-tools}
+## 四、建站工具 
 
 **建站工具推荐与教程:**
 
@@ -111,7 +111,7 @@ description: 本文汇总了WordPress建站新手在网站搭建和编辑过程�
 | 5    | [Blocksy Pro官方完整文档：](https://creativethemes.com/blocksy/docs/general/install-blocksy-theme/)                                                                               |
 | 6    | [stackable Pro版安装指引：](https://www.dulizhanseo.com/stackable-blocks-premium)                                                                                                 |
 
-## 五、问题反馈：论坛 {#section-5-feedback-forum}
+## 五、问题反馈：论坛 
 
 常见问题：[https://bbs.maozhishi.com/t/dulizhan](https://bbs.maozhishi.com/t/dulizhan)
 

@@ -8,13 +8,13 @@ description: 本文为WordPress建站新手推荐了域名购买平台（Namesil
 > 如果把网站比作房子，那么域名相当于房子的门牌号，服务器就是房子下面的土地，具体房子要建造成什么样式，就是你网站的模块选择了。
 > 推荐的域名可以免费使用它的ssl加速，服务器选用国内的服务商，使用的是国外的服务器。
 
-## 1.域名购买 {#domain-purchase}
+## 1.域名购买 
 
 [https://laifa.xin/ym](https://laifa.xin/ym)
 
-## 2.服务器推荐 {#server-recommendations}
+## 2.服务器推荐 
 
-### Ⅰ.特惠 {#special-offer}
+### Ⅰ.特惠 
 
 强烈推荐：[https://laifa.xin/txy-th](https://laifa.xin/txy-th)(**特惠活动，容量和流量都很大，3年仅需1058.4元**)
 注意：
@@ -24,7 +24,7 @@ description: 本文为WordPress建站新手推荐了域名购买平台（Namesil
 
 ![腾讯云跨境电商独立站服务器特惠活动页面](https://cos.files.maozhishi.com/xp/xz1665645786293.png)
 
-### Ⅱ.不限量套餐 {#unlimited-package}
+### Ⅱ.不限量套餐 
 
 [https://laifa.xin/txy-qqg](https://laifa.xin/txy-qqg)性价比更高，磁盘容量更大,无限流量！！！
 注意：
@@ -36,13 +36,13 @@ description: 本文为WordPress建站新手推荐了域名购买平台（Namesil
 
 ![腾讯云轻量应用服务器全球购活动页面，提供不限量套餐](https://cos.files.maozhishi.com/xp/xz1665645786325.png)
 
-### Ⅲ.个人认证推荐 {#personal-authentication-recommendation}
+### Ⅲ.个人认证推荐 
 
 [https://laifa.xin/txy-th2](https://laifa.xin/txy-th2)(**针对个人认证，无企业和跨境认证的小伙伴**)
 注意：相对上一个活动，这个活动优惠力度不大，仅作为备选。
 ![腾讯云服务器个人认证用户特惠活动页面](https://cos.files.maozhishi.com/xp/xz1665645786331.png)
 
-### Ⅳ.直接购买 {#direct-purchase}
+### Ⅳ.直接购买 
 
 如果仅仅是练手，可以购买一个月进行尝试，但是腾讯云一般针对首单优惠力度很大，直接按月购买是很不合算的
 入口：[https://laifa.xin/txy](https://laifa.xin/txy)32元/月起步，国内服务商更安全

@@ -10,7 +10,7 @@ description: 本教程介绍如何使用小书匠结合腾讯云COS和Cloudflare
 >
 > 本文我们带大家来了解下腾讯云cos（存储图片）/cloudflare（全球加速访问）/小书匠（批量转存图片），我们借助小书匠的“图床转换”功能，快速把图片从语雀转换成到自己的存储空间（腾讯云cos），并通过自己的域名进行加速访问（cloudflare代理加速）。
 
-## 一、图床参数获取 {#section-1-image-bed-parameters}
+## 一、图床参数获取 
 
 图床参数主要是腾讯云cos对象存储和cloudflare绑定的加速域名，这篇我们不做重复讲，大家借鉴《[服务器空间小？网站打开卡顿？为你的网站提个速](https://laifa.xin/xp52-txy-cf)》（查看一和二两章即可），请大家在电脑上打开查看。
 
@@ -20,7 +20,7 @@ description: 本教程介绍如何使用小书匠结合腾讯云COS和Cloudflare
 
 ![腾讯云COS和Cloudflare配置相关参数示意图](https://cos.files.maozhishi.com/public/attachments/lfx/1665494675528.png)
 
-## 二、软件下载安装 {#section-2-software-download-install}
+## 二、软件下载安装 
 
 支持Windows和osx（苹果系统），请大家选择自己系统对应的版本进行安装。
 
@@ -40,12 +40,12 @@ xattr -cr ./Story-writter.app
 
 安装过程略过。
 
-## 三、快速配置图床 {#section-3-quick-config-image-bed}
+## 三、快速配置图床 
 
 > 我们演示的是配置接入 ==腾讯云cos存储桶== 作为**==图片存储空间==**，同时通过**==加速域名进行图片访问==**
 > 存储桶与加速域名参数获取参照《[服务器空间小？网站打开卡顿？为你的网站提个速](https://laifa.xin/xp52-txy-cf)》，我们需要获取：`存储桶名称`、`所属地域`、`SecretId`、`SecretKey`、`自定义源站域名` 等5个参数信息。
 
-### 3.1、进入绑定设置 {#subsection-3-1-enter-binding-settings}
+### 3.1、进入绑定设置 
 
 > 找到左上角的小书匠标识 点击
 
@@ -59,7 +59,7 @@ xattr -cr ./Story-writter.app
 
 ![小书匠绑定设置界面，找到“腾讯云对象存储”选项](https://cos.files.maozhishi.com/public/attachments/lfx/1665494675184.png)
 
-### 3.2、设置图床参数 {#subsection-3-2-set-parameters}
+### 3.2、设置图床参数 
 
 > 在弹出的窗口中，填入存储桶数据。
 > 具体存储桶与域名参数获取参照《[服务器空间小？网站打开卡顿？为你的网站提个速](https://laifa.xin/xp52-txy-cf)》我们需要获取：`存储桶名称`、`所属地域`、`SecretId`、`SecretKey`、`自定义源站域名` 等5个参数信息，然后对照下图进行填写，请注意：1.**自定义名称**：随意写，这个就是给你自己看的；2.**SecretId**：这个对应我们在腾讯云中获取的 `SecretId` 3.**SecretKey**：这个对应我们在腾讯云中获取 `SecretKey`
@@ -86,7 +86,7 @@ xattr -cr ./Story-writter.app
 
 ![小书匠设置界面返回编辑器按钮](https://cos.files.maozhishi.com/public/attachments/lfx/1665494675531.png)
 
-### 3.3、修改编辑配置 {#subsection-3-3-modify-editor-config}
+### 3.3、修改编辑配置 
 
 > 由于默认编辑是 `立即预览` (所见即所得)模式，对于我们需要纯文本编辑来讲，并不利于我们进行编辑，所以我们要关闭掉。
 > 参照下图，点击编辑器中间部分的齿轮图标。
@@ -101,21 +101,21 @@ xattr -cr ./Story-writter.app
 
 ![小书匠编辑器取消“立时预览”后的纯文本编辑界面](https://cos.files.maozhishi.com/public/attachments/lfx/1665494675173.png)
 
-## 四、图床替换说明 {#section-4-image-bed-replacement}
+## 四、图床替换说明 
 
-### 4.1、新建编辑文档 {#subsection-4-1-new-document}
+### 4.1、新建编辑文档 
 
 > 点击右上角的“新建”，即可快速创建一个文档。
 
 ![小书匠编辑器右上角“新建”按钮](https://cos.files.maozhishi.com/public/attachments/lfx/1665494675459.png)
 
-### 4.2、清空默认内容 {#subsection-4-2-clear-default-content}
+### 4.2、清空默认内容 
 
 > 小书匠会生成默认内容，我们需要进行清空操作，ctrl+a全选，同时用删除键一键删除所有内容。
 
 ![小书匠新建文档后的默认内容](https://cos.files.maozhishi.com/public/attachments/lfx/1665494675497.png)
 
-### 4.3、批量转换图片 {#subsection-4-3-batch-convert-images}
+### 4.3、批量转换图片 
 
 > 如何一键把文档中所有的图片从转移转移到自己的图床中？我们以下文这篇文章为例
 

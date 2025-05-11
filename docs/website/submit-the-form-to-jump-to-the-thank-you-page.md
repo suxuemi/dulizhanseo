@@ -18,39 +18,39 @@ description: 本文介绍如何在WordPress网站中使用Contact Form 7插件�
 >
 > ![跳转后的感谢页面示例](https://cos.files.maozhishi.com/小书匠/1674965774531.png)
 
-### 一、登录网站后台安装插件 {#login-install-plugin}
+### 一、登录网站后台安装插件 
 
-#### 1.必须先安装Contact Form 7插件 {#install-contact-form-7-first}
+#### 1.必须先安装Contact Form 7插件 
 
 ![WordPress后台插件搜索结果：Contact Form 7](https://cos.files.maozhishi.com/小书匠/1674965774532.png)
 
-#### 2.再安装Redirection for Contact Form 7插件 {#install-redirection-plugin}
+#### 2.再安装Redirection for Contact Form 7插件 
 
 ![WordPress后台插件搜索结果：Redirection for Contact Form 7](https://cos.files.maozhishi.com/小书匠/1674965774533.png)
 
-### 二、点击安装并启用插件 {#install-activate-plugin}
+### 二、点击安装并启用插件 
 
 点击安装并启用
 
 ![点击“安装”并“启用”Redirection for Contact Form 7插件](https://cos.files.maozhishi.com/小书匠/1674965774534.png)
 
-### 三、设置插件 {#configure-plugin}
+### 三、设置插件 
 
-#### 1.打开后台的联系表单，点击编辑 {#edit-contact-form}
+#### 1.打开后台的联系表单，点击编辑 
 
 ![WordPress后台“联系表单”列表，点击“编辑”](https://cos.files.maozhishi.com/小书匠/1674965774535.png)
 
-#### 2.找到新出现的Actions选项框 {#find-actions-tab}
+#### 2.找到新出现的Actions选项框 
 
 ![Contact Form 7 编辑界面，显示新增的“Actions”选项卡](https://cos.files.maozhishi.com/小书匠/1674965774536.png)
 
-#### 3.添加重定向（redirect） {#add-redirect-action}
+#### 3.添加重定向（redirect） 
 
 ![在“Actions”选项卡下选择“Redirect”动作类型](https://cos.files.maozhishi.com/小书匠/1674965774537.png)
 
 ![点击“Add Action”按钮添加重定向动作](https://cos.files.maozhishi.com/小书匠/1674965774538.png)
 
-#### 4.编辑重定向设置 {#edit-redirect-settings}
+#### 4.编辑重定向设置 
 
 - 可选择页面的链接
 - 或者添加事先设置好的thanks页面
@@ -59,17 +59,17 @@ description: 本文介绍如何在WordPress网站中使用Contact Form 7插件�
 
 ![Redirection for Contact Form 7 重定向设置选项](https://cos.files.maozhishi.com/小书匠/1674965774539.png)
 
-#### 5.保存设置 {#save-settings}
+#### 5.保存设置 
 
 ![点击Contact Form 7编辑页面的“保存”按钮](https://cos.files.maozhishi.com/小书匠/1674965774540.png)
 
-### 四、测试效果 {#test-effect}
+### 四、测试效果 
 
 回到前端页面，重新留言测试效果
 
 ![前端页面提交表单后成功跳转到感谢页面](https://cos.files.maozhishi.com/小书匠/1674965774542.png)
 
-#### 注：如果有以下情况，可以设置浏览器弹窗，或者关闭跳转新页面即可。 {#note-popup-blocker}
+#### 注：如果有以下情况，可以设置浏览器弹窗，或者关闭跳转新页面即可。 
 
 ![浏览器提示弹窗被阻止](https://cos.files.maozhishi.com/小书匠/1674965774541.png)
 

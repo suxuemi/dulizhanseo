@@ -22,21 +22,21 @@ INSTALL_AGENT=1 INSTALL_APPS=sitemgr INIT_SWAPFILE=1 INSTALL_PKGS='nginx-stable,
 
 ![AppNode安装成功界面，显示登录地址、账号和密码](https://cos.files.maozhishi.com/public/attachments/xsj/2023-11-12-1699793694890.png)
 
-## 一、教程 {#section-1-tutorials}
+## 一、教程 
 
-### 1.1、 视频 {#subsection-1-1-video}
+### 1.1、 视频 
 
 详细教程，微信扫码观看。
 
 ![观看AppNode安装视频教程的二维码](https://cos.files.maozhishi.com/public/attachments/xsj/2023-11-12-1699793694894.png)
 
-### 1.2、 文字 {#subsection-1-2-text}
+### 1.2、 文字 
 
 字教程见： Appnode代码与安装：[https://laifa.xin/appnode](https://laifa.xin/appnode)
 
-## 二、问题 {#section-2-issues}
+## 二、问题 
 
-### 2.1、登录出现：服务器内部错误：授权检测失败 {#subsection-2-1-auth-error}
+### 2.1、登录出现：服务器内部错误：授权检测失败 
 
 > 登录后出现如下图的提示
 
@@ -48,13 +48,13 @@ INSTALL_AGENT=1 INSTALL_APPS=sitemgr INIT_SWAPFILE=1 INSTALL_PKGS='nginx-stable,
 
 ==**需要免费序列号，也可以扫码联系我们获取**==
 
-### 2.2、出现空白 {#subsection-2-2-blank-page}
+### 2.2、出现空白 
 
 > 首次打开，出现空白，这种情况多刷新几次即可。
 
 ![首次登录AppNode时可能出现的空白页面截图](https://cos.files.maozhishi.com/public/attachments/xsj/2023-11-12-1699793694896.png)
 
-### 2.3、正在加载 UI 资源 {#subsection-2-3-loading-ui}
+### 2.3、正在加载 UI 资源 
 
 在这个界面时间过长，首次登入，出现这种问题概率较大，多刷新。
 

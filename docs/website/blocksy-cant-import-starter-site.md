@@ -8,28 +8,28 @@ description: 本文解决了在导入Blocksy模板时出现“Can't Import Start
 > 具体怎么操作往下看。
 > ![Blocksy导入模板时报错“Can't Import Starter Site”](https://cos.files.maozhishi.com/小书匠/1701943822425.png)
 
-## 一、进入设置 {#enter-appnode-settings}
+## 一、进入设置 
 
 打开你的appnode后台，如下图。
 ![登录AppNode控制面板后台](https://cos.files.maozhishi.com/小书匠/1701943822430.png)
 
-### A、修改大小限制 {#modify-upload-limits}
+### A、修改大小限制 
 
 找到具体的网站，进入右侧的设置，点击PHP。
 把“上传文件大小”和“post 提交数据大小限制”，都改成 30mb
 ![AppNode网站PHP设置 - 修改上传文件和POST大小限制为30MB](https://cos.files.maozhishi.com/小书匠/1701943822431.png)
 
-### B、修改执行时间 {#modify-execution-time}
+### B、修改执行时间 
 
 在PHP进程中，把“php程序最长执行时间限制”从 60 秒修改为 600 秒
 ![AppNode网站PHP设置 - 修改PHP程序最长执行时间为600秒](https://cos.files.maozhishi.com/小书匠/1701943822432.png)
 
-### C、 重载服务生效 {#reload-service-for-effect}
+### C、 重载服务生效 
 
 保存配置之后，重载服务。
 ![AppNode服务管理 - 重载服务使配置生效](https://cos.files.maozhishi.com/小书匠/1701943822433.png)
 
-## 二、修改 PHP 全局源文 {#modify-php-global-source}
+## 二、修改 PHP 全局源文 
 
 A.返回右侧的网站管理，找到组件管理，点击设置
 参照下图，进入 php 设置
@@ -41,7 +41,7 @@ C.找到 398 行，把 60 改成 600 即可。
 D.保存后，php 文件更新
 ![保存修改后的PHP全局源文件](https://cos.files.maozhishi.com/小书匠/1701943822437.png)
 
-## 三、重新导入网站模板 {#re-import-website-template}
+## 三、重新导入网站模板 
 
 A、返回wordpress网站后台，禁用后台所有已安装插件【Blocksy Companion (Premium)除外】![WordPress后台插件列表 - 禁用除Blocksy Companion外的所有插件](https://cos.files.maozhishi.com/小书匠/1701943822438.png)
 B、再次导入即可。

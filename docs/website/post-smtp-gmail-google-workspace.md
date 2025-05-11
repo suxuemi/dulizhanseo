@@ -6,94 +6,94 @@ description: 本教程详细介绍了如何在WordPress网站中使用Post SMTP�
 
 > 最近post smtp更新版本，新版本163和88邮箱的发信服务器都不能正常使用，如果是腾讯和263企业邮箱按照我们的老教程操作可以正常使用，选择other smtp 配置即可。本章节主要讲解如何绑定gmail邮箱的设置方法。
 
-## **安装和激活 Post SMTP 插件** {#install-activate-post-smtp-plugin}
+## **安装和激活 Post SMTP 插件** 
 
 下面是使用 Post SMTP 设置 Gmail/Google Workspace 的所有步骤。
 转到“**发布 SMTP”仪表板**，然后单击“**启动向导**”。如果是新安装的插件，则会跳出下面界面。
 
-## **邮箱设置** {#mailbox-settings}
+## **邮箱设置** 
 
 弹出一个窗口，其中包含不同的**邮件服务**。从连接标签页中选择 **Gmail API**。
 ![Post SMTP 设置向导 - 选择邮件服务类型为Gmail API](https://cos.files.maozhishi.com/小书匠/1700649814149.png)
 转到 **Google Cloud Console** 以获取身份验证字段（客户端 ID 和客户端**密钥）。**
 
-## **在你的 Google 帐号中创建网络应用** {#create-web-app-in-google-account}
+## **在你的 Google 帐号中创建网络应用** 
 
 登录您的 Google 帐户并在新选项卡/窗口中打开您的 [Google Cloud Console](https://console.cloud.google.com/home/dashboard)。
 
-## **创建或选择项目** {#create-or-select-project}
+## **创建或选择项目** 
 
-### 1、在创建 Web 应用之前，必须选择一个项目。您可以选择一个已经存在的或创建一个新的。为此，请从仪表板顶部的工具栏中选择项目下拉列表。 {#select-project-dropdown}
+### 1、在创建 Web 应用之前，必须选择一个项目。您可以选择一个已经存在的或创建一个新的。为此，请从仪表板顶部的工具栏中选择项目下拉列表。 
 
 ![Google Cloud Console 顶部工具栏 - 选择项目下拉菜单](https://cos.files.maozhishi.com/小书匠/1700649814150.png)
 
-### 2、您可以从弹出窗口的列表中选择一个现有项目，或单击右上角的“新建项目”。 {#select-existing-or-new-project}
+### 2、您可以从弹出窗口的列表中选择一个现有项目，或单击右上角的“新建项目”。 
 
 ![Google Cloud Console 选择项目弹窗 - 选择现有项目或新建项目](https://cos.files.maozhishi.com/小书匠/1700649814151.png)
 如果使用现有项目，请继续执行下一步。
 
-### 3、要开始一个新项目，请在提供的字段中键入项目名称，然后从“位置”字段的下拉菜单中选择您的组织。然后单击“创建”按钮。 {#create-new-project-details}
+### 3、要开始一个新项目，请在提供的字段中键入项目名称，然后从“位置”字段的下拉菜单中选择您的组织。然后单击“创建”按钮。 
 
 ![Google Cloud Console 新建项目页面 - 输入项目名称和组织](https://cos.files.maozhishi.com/小书匠/1700649814152.png)
 
-### 4、你将在通知弹出窗口中看到新创建的项目 {#new-project-notification}
+### 4、你将在通知弹出窗口中看到新创建的项目 
 
 ![Google Cloud Console 新建项目成功通知](https://cos.files.maozhishi.com/小书匠/1700649814153.png)
 
-## **启用 Gmail API** {#enable-gmail-api}
+## **启用 Gmail API** 
 
-### 1、项目的以下步骤是启用 Gmail API。转到 [Google Cloud Console](https://console.cloud.google.com/home/dashboard) 的侧边栏，然后选择 API 和服务 » 库。 {#navigate-to-library}
+### 1、项目的以下步骤是启用 Gmail API。转到 [Google Cloud Console](https://console.cloud.google.com/home/dashboard) 的侧边栏，然后选择 API 和服务 » 库。 
 
 ![Google Cloud Console 左侧导航栏 - 选择 API 和服务 > 库](https://cos.files.maozhishi.com/小书匠/1700649814154.png)
 
-### 2、在搜索栏中输入 Gmail API。要继续，点击 Gmail API。 {#search-and-select-gmail-api}
+### 2、在搜索栏中输入 Gmail API。要继续，点击 Gmail API。 
 
 ![Google Cloud API 库 - 搜索并选择 Gmail API](https://cos.files.maozhishi.com/小书匠/1700649814155.png)
 
-### 3、要启用 Gmail API，单击页面上的“启用”按钮。 {#enable-gmail-api-button}
+### 3、要启用 Gmail API，单击页面上的“启用”按钮。 
 
 ![Gmail API 页面 - 点击“启用”按钮](https://cos.files.maozhishi.com/小书匠/1700649814156.png)
 
-### 4、转到 Google Cloud Console 边栏中 API 和服务下的 OAuth 同意屏幕 {#navigate-to-oauth-consent-screen}
+### 4、转到 Google Cloud Console 边栏中 API 和服务下的 OAuth 同意屏幕 
 
 ![Google Cloud Console 左侧导航栏 - 选择 API 和服务 > OAuth 同意屏幕](https://cos.files.maozhishi.com/小书匠/1700649814157.png)
 
-### 5、单击“外部”。您将看到一个标题为“应用程序信息”的屏幕。 {#select-external-user-type}
+### 5、单击“外部”。您将看到一个标题为“应用程序信息”的屏幕。 
 
 ![OAuth 同意屏幕 - 选择用户类型为“外部”](https://cos.files.maozhishi.com/小书匠/1700649814158.png)
 单击--创建
 
-**配置 OAuth 同意屏幕** {#configure-oauth-consent-screen}
+**配置 OAuth 同意屏幕** 
 
 ![OAuth 同意屏幕配置 - 填写应用信息](https://cos.files.maozhishi.com/小书匠/1700649814167.png)
 范围”页面。向下滚动页面到末尾，单击**“保存并继续**”。
 
-## **配置作用域** {#configure-scopes}
+## **配置作用域** 
 
 范围”页面。向下滚动页面到末尾，单击**“保存并继续**”。
 
 ![OAuth 同意屏幕配置 - 范围设置页面，直接保存并继续](https://cos.files.maozhishi.com/小书匠/1700649814168.png)
 
-## **查看和编辑“摘要”页上的设置** {#review-edit-summary-settings}
+## **查看和编辑“摘要”页上的设置** 
 
 看到名为**“摘要**”的最后一页。您可以编辑设置或单击“返回仪表板”以返回。
 ![OAuth 同意屏幕配置 - 摘要页面，点击返回仪表板](https://cos.files.maozhishi.com/小书匠/1700649814169.png)
 ![OAuth 同意屏幕仪表板](https://cos.files.maozhishi.com/小书匠/1700649814170.png)
 
-## **将发布状态从“测试”更新为“生产”** {#update-publishing-status-to-production}
+## **将发布状态从“测试”更新为“生产”** 
 
 您将在仪表板上的“测试”标题下看到“发布应用程序”按钮。单击**“发布应用程序”，**将出现一个弹出窗口。单击“确认”，以便为拥有 Google 帐户的任何用户发布和启用该应用。
 ![OAuth 同意屏幕仪表板 - 点击“发布应用”按钮](https://cos.files.maozhishi.com/小书匠/1700649814171.png)
 ![确认发布应用弹窗](https://cos.files.maozhishi.com/小书匠/1700649814172.png)
 
-## **创建应用程序的凭据** {#create-application-credentials}
+## **创建应用程序的凭据** 
 
 首先，单击仪表板侧边菜单栏上的“凭据”按钮。
 ![Google Cloud Console 左侧导航栏 - 选择“凭据”](https://cos.files.maozhishi.com/小书匠/1700649814173.png)
 单击**“创建凭据**”，然后从下拉菜单中选择“**OAuth 客户端 ID**”。
 ![凭据页面 - 点击“创建凭据”并选择“OAuth 客户端 ID”](https://cos.files.maozhishi.com/小书匠/1700649814174.png)
 
-## **创建 OAuth 客户端 ID** {#create-oauth-client-id}
+## **创建 OAuth 客户端 ID** 
 
 从**“应用程序类型**”字段的下拉列表中选择“**Web 应用程序**”。
 ![创建 OAuth 客户端 ID - 选择应用程序类型为“Web 应用程序”](https://cos.files.maozhishi.com/小书匠/1700649814175.png)
@@ -113,7 +113,7 @@ description: 本教程详细介绍了如何在WordPress网站中使用Post SMTP�
 ![OAuth 客户端已创建弹窗 - 显示客户端 ID 和客户端密钥](https://cos.files.maozhishi.com/小书匠/1700649814272.png)返回到打开“发布SMTP”的选项卡，并将其粘贴到“**发布SMTP**”设置向导中，然后单击“**下一步”和“完成”。\*\*
 ![Post SMTP 设置向导 - 粘贴客户端 ID 和客户端密钥](https://cos.files.maozhishi.com/小书匠/1700649814273.png)
 
-## **授予您的网站 Google / Gmail 权限** {#grant-google-gmail-permission}
+## **授予您的网站 Google / Gmail 权限** 
 
 将在**“发布 SMTP”仪表板**上的“操作”选项卡下看到“Connect to Gmail API”。
 单击此按钮，将出现一个新窗口。

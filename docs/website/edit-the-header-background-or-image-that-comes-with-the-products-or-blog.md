@@ -10,71 +10,71 @@ description: 本文指导WordPress建站新手如何编辑Products（产品）�
 
 ![WordPress 产品或博客页面顶部背景示例](https://cos.files.maozhishi.com/xp/xz1666683791659.png)
 
-## 1、进入自定义 {#enter-customizer}
+## 1、进入自定义 
 
 进入具有编辑权限的前端页面，点击自定义
 
 ![WordPress前端页面顶部管理栏，点击“自定义”按钮](https://cos.files.maozhishi.com/xp/xz1666683791661.png)
 
-## 2、修改products首页的背景图片 {#modify-products-archive-background}
+## 2、修改products首页的背景图片 
 
-### 2.1 自定义页面，点击woo下面的产品档案 {#customize-product-archive}
+### 2.1 自定义页面，点击woo下面的产品档案 
 
 ![WordPress自定义界面，进入 WooCommerce -> 产品目录（产品档案）设置](https://cos.files.maozhishi.com/xp/xz1666683791662.png)
 
-### 2.2 进入页面标题界面 {#enter-page-title-settings}
+### 2.2 进入页面标题界面 
 
 ![WordPress自定义产品档案设置，点击“页面标题”选项](https://cos.files.maozhishi.com/xp/xz1666683791663.png)
 
-### 2.3 在产品档案的页面标题界面选择设计 {#select-design-tab}
+### 2.3 在产品档案的页面标题界面选择设计 
 
 ![页面标题设置中，选择“设计”标签页](https://cos.files.maozhishi.com/xp/xz1666683791802.png)
 
-### 2.4 下拉找到容器背景点击进入，选择图片 {#find-container-background}
+### 2.4 下拉找到容器背景点击进入，选择图片 
 
 ![在“设计”标签页下，找到并点击“容器背景”选项](https://cos.files.maozhishi.com/xp/xz1666683791803.png)
 
-### 2.5 选择图片下的图像 {#select-image-background}
+### 2.5 选择图片下的图像 
 
 ![在容器背景设置中，选择“图像”作为背景类型](https://cos.files.maozhishi.com/xp/xz1666683791804.png)
 
-### 2.6 如果依然没有改变，找到图像覆盖选项禁止即可 {#disable-image-overlay}
+### 2.6 如果依然没有改变，找到图像覆盖选项禁止即可 
 
 ![如果背景未改变，检查并禁用“图像覆盖”选项](https://cos.files.maozhishi.com/xp/xz1666683791805.png)
 
-## 3、修改产品详情页的背景图片设置 {#modify-single-product-background}
+## 3、修改产品详情页的背景图片设置 
 
-### 3.1 自定义页面，选择产品详情页 {#customize-single-product}
+### 3.1 自定义页面，选择产品详情页 
 
 ![WordPress自定义界面，进入 WooCommerce -> 单个产品 页面设置](https://cos.files.maozhishi.com/xp/xz1666683791806.png)
 
-### 3.2 点击产品标题 {#click-product-title-settings}
+### 3.2 点击产品标题 
 
 ![在单个产品设置中，点击“产品标题”选项](https://cos.files.maozhishi.com/xp/xz1666683791807.png)
 
-### 3.3 选择产品标题的设计界面 {#select-product-title-design}
+### 3.3 选择产品标题的设计界面 
 
 ![产品标题设置中，选择“设计”标签页](https://cos.files.maozhishi.com/xp/xz1666683791808.png)
 
-### 3.4 选择容器背景 {#select-container-background}
+### 3.4 选择容器背景 
 
 ![在“设计”标签页下，找到并点击“容器背景”选项](https://cos.files.maozhishi.com/xp/xz1666683791809.png)
 
-### 3.5 选择图片或颜色更换即可 {#change-image-or-color}
+### 3.5 选择图片或颜色更换即可 
 
 ![在容器背景设置中，选择新的图片或颜色作为背景](https://cos.files.maozhishi.com/xp/xz1666683791810.png)
 
-## 4、修改Blog的首页的背景图片 {#modify-blog-archive-background}
+## 4、修改Blog的首页的背景图片 
 
 > 与编辑产品页面设置方法相同，先进入博客详情页，再进入标题设计界面，选择容器背景修改图片或者背景。
 
 ![WordPress自定义界面，进入“博客文章”设置](https://cos.files.maozhishi.com/xp/xz1666683791811.png)
 
-### 4.1 选择要修改的blog对应的界面 {#select-blog-page-type}
+### 4.1 选择要修改的blog对应的界面 
 
 ![在“博客文章”设置中，选择“文章归档”或“单个文章”进行编辑](https://cos.files.maozhishi.com/xp/xz1666683791814.png)
 
-### 4.2 找到博客标题选项 {#find-blog-title-options}
+### 4.2 找到博客标题选项 
 
 略：选择设计 > 容器背景 > 图片 > 修改图片或颜色 - 发布即可
 

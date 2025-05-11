@@ -12,27 +12,27 @@ description: 本文解决了新安装WordPress网站通过HTTPS访问时页面�
 
 > 检查网站网址为：`https://www.xxxx.com/`，去掉s ，`http://www.xxxx.com/`又能正常显示。说明我们没有正确安装ssl证书，但是网站又强制打开以`https`为开头的网址。我们只需要正确配置好ssl证书即可。
 
-## 登录Cloudflare域名管理界面 {#login-cloudflare}
+## 登录Cloudflare域名管理界面 
 
-### 1.进入域名管理界面，创建源证书 {#create-origin-certificate}
+### 1.进入域名管理界面，创建源证书 
 
 ![Cloudflare域名管理界面，选择SSL/TLS -> 源服务器 -> 创建证书](https://cos.files.maozhishi.com/小书匠/1702014708155.png)
 
 ![Cloudflare创建源证书选项确认](https://cos.files.maozhishi.com/小书匠/1702014708156.png)
 
-### 2.复制源证书和私钥 {#copy-certificate-key}
+### 2.复制源证书和私钥 
 
 ![Cloudflare复制生成的源证书和私钥文本](https://cos.files.maozhishi.com/小书匠/1702014708157.png)
 
-## 登录AppNode后台 {#login-appnode}
+## 登录AppNode后台 
 
-### 1.打开网站设置 {#open-website-settings}
+### 1.打开网站设置 
 
 找到显示有问题的网站
 
 ![AppNode网站管理列表，选择目标网站](https://cos.files.maozhishi.com/小书匠/1702014708160.png)
 
-### 2.打开手动导入证书 {#manual-certificate-import}
+### 2.打开手动导入证书 
 
 打开https设置， 启用并且手动配置导入证书
 
@@ -40,11 +40,11 @@ description: 本文解决了新安装WordPress网站通过HTTPS访问时页面�
 
 ![AppNode HTTPS设置，选择“手动配置”并点击“导入证书”](https://cos.files.maozhishi.com/小书匠/1702014708162.png)
 
-### 3.完成导入，保存配置并且重载服务 {#complete-import-save-reload}
+### 3.完成导入，保存配置并且重载服务 
 
 ![AppNode手动导入证书界面，粘贴源证书和私钥后保存并重载服务](https://cos.files.maozhishi.com/小书匠/1702014708163.png)
 
-## 再次打开网址，即可看到完整页面 {#verify-fix}
+## 再次打开网址，即可看到完整页面 
 
 这也是网站的cloudflare的ssl证书设置方法。
 

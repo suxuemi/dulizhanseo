@@ -10,7 +10,7 @@ description: 本文为WordPress建站新手提供后续操作指引。在网站�
 > - 前端页面--自定义：编辑页眉，底部菜单，社媒链接，产品文章首页布局……
 > - 前端页面--编辑页面：单个页面的布局，版面设计，替换图片，添加超链接……
 
-## 一、wordpress后台 {#wordpress-backend}
+## 一、wordpress后台 
 
 > 在wordpress后台里，如下图：
 >
@@ -27,7 +27,7 @@ description: 本文为WordPress建站新手提供后续操作指引。在网站�
 
 ![WordPress后台管理界面侧边栏菜单截图](https://cos.files.maozhishi.com/public/attachments/lfx/1669002536101.png)
 
-## 二、wordpress的自定义功能区 {#wordpress-customizer-area}
+## 二、wordpress的自定义功能区 
 
 ![WordPress前端页面顶部管理栏，显示“自定义”按钮](https://cos.files.maozhishi.com/public/attachments/lfx/1669002536102.png)
 
@@ -40,7 +40,7 @@ description: 本文为WordPress建站新手提供后续操作指引。在网站�
 
 ![WordPress自定义功能区侧边栏选项截图](https://cos.files.maozhishi.com/public/attachments/lfx/1669002536132.png)
 
-## 三、wordpress的单个页面的编辑 {#wordpress-single-page-editing}
+## 三、wordpress的单个页面的编辑 
 
 [**Stackable - Gutenberg Blocks (Premium)**](https://www.dulizhanseo.com/stackable-blocks-premium/)**古腾堡编辑器的付费版@夏日么么茶 可免费获得。**
 

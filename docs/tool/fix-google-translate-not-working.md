@@ -8,7 +8,7 @@ description: 本文提供了解决谷歌Chrome浏览器内置的“自动网页�
 >
 > 作为使用率最高的浏览器之一：Google Chrome 谷歌浏览器，其内置的“自动网页翻译”功能直接无法使用，使得无数外贸人在浏览外文网站或查阅资料时非常不便！如果你办公、学习都常要用到翻译功能，那么我们一起来看看怎样解决你的翻译难题吧……
 
-## 方案一：修改 hosts（无需T子） {#solution-one-modify-hosts}
+## 方案一：修改 hosts（无需T子） 
 
 **如果你对谷歌浏览器内置的“自动网页翻译”功能情有独钟，推荐使用这个方案。（如果你不介意换浏览器，可选择方案2，如果你仅仅是需要一个翻译功能，可以使用方案3）**
 
@@ -20,7 +20,7 @@ description: 本文提供了解决谷歌Chrome浏览器内置的“自动网页�
 180.163.151.162 translate.googleapis.com
 ```
 
-## 方案二：edge浏览器（简单直接） {#solution-two-edge-browser}
+## 方案二：edge浏览器（简单直接） 
 
 [Microsoft Edge浏览器](https://www.microsoft.com/zh-cn/edge) ：[https://www.microsoft.com/zh-cn/edge](https://www.microsoft.com/zh-cn/edge)
 
@@ -36,7 +36,7 @@ description: 本文提供了解决谷歌Chrome浏览器内置的“自动网页�
 
 注意：因为翻译就没有原文对照了，相对来说还是有点不方便，如果你想原本和译文对照，那么请看第三个方案：利用插件进行翻译。
 
-## 方案三：划词翻译（强烈推荐） {#solution-three-hcfy-extension}
+## 方案三：划词翻译（强烈推荐） 
 
 [划词翻译 (hcfy.app)](https://hcfy.app/) ：[https://hcfy.app/](https://hcfy.app/)
 

@@ -8,7 +8,7 @@ description: 本文以88.com邮箱为例，详细介绍了如何在WordPress网�
 
 开始之前，建议大家：1.关闭wordpress的新用户注册，以免被攻击；2.安装插件：post smtp（这是一个邮件发送插件）
 
-## 一.注册邮箱 {#register-88-mailbox}
+## 一.注册邮箱 
 
 > 88.com注册入口：[https://www.88.com/register/](https://www.88.com/register/)
 
@@ -22,7 +22,7 @@ description: 本文以88.com邮箱为例，详细介绍了如何在WordPress网�
 
 ![88.com邮箱收件箱界面](https://cos.files.maozhishi.com/public/attachments/lfx/1665328342916.png)
 
-## 二.获取专用密码 {#get-dedicated-password}
+## 二.获取专用密码 
 
 > 88邮箱用smtp发信，需要先获取专用密码才可，我们先点击“客户端设置”进入界面
 
@@ -42,7 +42,7 @@ description: 本文以88.com邮箱为例，详细介绍了如何在WordPress网�
 梳理下，发信邮箱/专用密码/发信服务器如下图
 ![88邮箱SMTP设置所需信息：邮箱地址、专用密码、SMTP服务器地址](https://cos.files.maozhishi.com/public/attachments/lfx/1665328342914.png)
 
-## 三.发信邮箱设置 {#configure-sending-mailbox}
+## 三.发信邮箱设置 
 
 我们进入woedpress后台，在post smtp中设置发信邮箱，点击：star the wizard开始设置
 ![Post SMTP插件仪表盘，点击“Start the Wizard”开始设置](https://cos.files.maozhishi.com/public/attachments/lfx/1665328342915.png)
@@ -73,7 +73,7 @@ description: 本文以88.com邮箱为例，详细介绍了如何在WordPress网�
 
 ![Post SMTP设置向导完成页面，点击“Finish”](https://cos.files.maozhishi.com/public/attachments/lfx/1665328342982.png)
 
-## 四.测试发信邮箱 {#test-sending-mailbox}
+## 四.测试发信邮箱 
 
 > 我们要测试邮箱是否添加成功，在插件首页，我们点击send a test email开始测试
 
@@ -91,9 +91,9 @@ description: 本文以88.com邮箱为例，详细介绍了如何在WordPress网�
 
 ![收件箱中收到来自Post SMTP的测试邮件](https://cos.files.maozhishi.com/public/attachments/lfx/1665328342981.png)
 
-## 五.常见问题 {#common-issues}
+## 五.常见问题 
 
-### 怎么开启端口？ {#how-to-open-ports}
+### 怎么开启端口？ 
 
 > 国内的服务商一般只开通80/443等常见端口，465/587等端口是关闭的，我们一般需要在服务商的后台进行开启，以腾讯云为例，我们进去服务器管理界面，我们进入防火前辈，放行465端口。
 

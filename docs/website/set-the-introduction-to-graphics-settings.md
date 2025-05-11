@@ -8,27 +8,27 @@ description: 本文介绍如何在WordPress建站时为文章设置特色图片�
 >
 > ![文章汇总页预览，首篇文章仅显示文字简介](https://cos.files.maozhishi.com/public/attachments/lfx/1669630121609.png)
 
-## 1、打开要编辑的文章 {#open-article-for-editing}
+## 1、打开要编辑的文章 
 
 ![WordPress后台文章列表，准备编辑目标文章](https://cos.files.maozhishi.com/public/attachments/lfx/1669630121611.png)
 
-## 2、进入页面左上角的编辑文章界面 {#enter-article-editing-interface}
+## 2、进入页面左上角的编辑文章界面 
 
 登录具有编辑权限的文章前端页面。
 
 ![文章前端页面，点击顶部管理栏的“编辑文章”按钮](https://cos.files.maozhishi.com/public/attachments/lfx/1669630121612.png)
 
-## 3、添加特色图片 {#add-featured-image}
+## 3、添加特色图片 
 
 右边的设置界面找到特色图片
 
 ![WordPress文章编辑界面右侧边栏，找到并点击“特色图片”设置区域](https://cos.files.maozhishi.com/public/attachments/lfx/1669630121613.png)
 
-## 4、完成更新 {#complete-update}
+## 4、完成更新 
 
 ![设置特色图片后，点击右上角的“更新”按钮保存更改](https://cos.files.maozhishi.com/public/attachments/lfx/1669630121614.png)
 
-## 5、显示效果 {#display-effect}
+## 5、显示效果 
 
 ![文章汇总页更新后效果，首篇文章已显示图文简介](https://cos.files.maozhishi.com/public/attachments/lfx/1669630121658.png)
 

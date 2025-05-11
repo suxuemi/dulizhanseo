@@ -11,51 +11,51 @@ wordpress问题描述：
 >
 > 这些都是机器人扫描操作，他们虽然伤害不大，但是让人苦恼不断，外贸人最怕错过每一个真实的询盘邮件。今天我们尝试用一个插件搞定他。
 
-## 一、登陆后台 {#section-1-login-backend}
+## 一、登陆后台 
 
 登录wordpress后台在插件里点击安装插件。
 
 ![WordPress后台插件菜单，指向“安装插件”](https://cos.files.maozhishi.com/小书匠/1702620773193.png)
 
-## 二、搜索：google recaptcha {#section-2-search-plugin}
+## 二、搜索：google recaptcha 
 
 在安装搜索框中输入：google recaptcha
 
 ![WordPress插件搜索框输入“google recaptcha”](https://cos.files.maozhishi.com/小书匠/1702620773194.png)
 
-## 三、点击安装并启用 {#section-3-install-activate}
+## 三、点击安装并启用 
 
 ![搜索结果中的Google reCAPTCHA插件，点击“现在安装”并“启用”](https://cos.files.maozhishi.com/小书匠/1702620773195.png)
 
-## 四、设置google recaptcha，激活验证码 {#section-4-configure-recaptcha}
+## 四、设置google recaptcha，激活验证码 
 
 跳出的付费选项，不要点击，直接“ESC”
 
 ![插件付费选项弹窗，提示按ESC跳过](https://cos.files.maozhishi.com/小书匠/1702620773198.png)
 
-### 选择Google reCaptcha v3 {#select-recaptcha-v3}
+### 选择Google reCaptcha v3 
 
 主要是方便
 
 ![插件设置界面选择Google reCaptcha v3](https://cos.files.maozhishi.com/小书匠/1702620773199.png)
 
-### 4.1 注册新网站 {#4-1-register-site}
+### 4.1 注册新网站 
 
 登录谷歌账号 [https://www.google.com/recaptcha/admin/create](https://www.google.com/recaptcha/admin/create)
 
 ![Google reCAPTCHA后台创建新网站页面](https://cos.files.maozhishi.com/小书匠/1702620773200.png)
 
-### 4.2 填入信息 {#4-2-fill-info}
+### 4.2 填入信息 
 
 以第三版为例
 
 ![Google reCAPTCHA注册表单填写信息（v3）](https://cos.files.maozhishi.com/小书匠/1702620773201.png)
 
-### 4.3 获得密钥 {#4-3-get-keys}
+### 4.3 获得密钥 
 
 ![Google reCAPTCHA生成的站点密钥和密钥](https://cos.files.maozhishi.com/小书匠/1702620773202.png)
 
-### 4.4 填入密钥保存 {#4-4-enter-keys-save}
+### 4.4 填入密钥保存 
 
 回到网站后台
 
@@ -73,11 +73,11 @@ wordpress问题描述：
 
 ![验证成功后保存设置](https://cos.files.maozhishi.com/小书匠/1702620773206.png)
 
-## 五、激活登录保护 {#section-5-activate-login-protection}
+## 五、激活登录保护 
 
 ![插件设置，激活登录保护选项](https://cos.files.maozhishi.com/小书匠/1702620773207.png)
 
-## 六、开启防火墙 {#section-6-enable-firewall}
+## 六、开启防火墙 
 
 避免垃圾邮件，完成即可避免机器人的频繁骚扰。。
 

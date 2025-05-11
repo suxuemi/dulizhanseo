@@ -18,21 +18,21 @@ description: 本文介绍了WordPress网站自动备份到云端（腾讯云COS�
 > 🔥 ③ 一键快速还原 ③ 🔥
 > 一键还原数据，小白也能轻松操作
 
-## 一、网站备份设置 {#website-backup-settings}
+## 一、网站备份设置 
 
-### 1.1.网站设置 {#accessing-website-settings}
+### 1.1.网站设置 
 
 进入appnode（网站管理工具），登录后进入“网站管理”页面，进入对应网站的设置
 
 ![AppNode网站管理页面，点击网站设置图标](https://cos.files.maozhishi.com/wp-content/uploads/1665319984501.png)
 
-### 1.2.立即备份 {#manual-backup}
+### 1.2.立即备份 
 
 进在设置中，进入“备份”标签，在“备份文件”下，可以进行**立即备份**操作
 注意：立即备份是手动操作，为了保证能及时备份网站数据，我们建议开启“**定时备份**”
 ![AppNode网站备份设置，点击“立即备份”按钮](https://cos.files.maozhishi.com/wp-content/uploads/1665320270579.png)
 
-### 1.3.定时备份 {#scheduled-backup}
+### 1.3.定时备份 
 
 在“备份文件”的下方，就是我们需要是“定时备份”
 进入“定时备份”，勾选“启用定时备份”，并点击“添加备份规则”
@@ -49,7 +49,7 @@ description: 本文介绍了WordPress网站自动备份到云端（腾讯云COS�
 点击“立即部署”，appnode会自动部署完成。
 ![AppNode提示需要部署环境使备份设置生效](https://cos.files.maozhishi.com/wp-content/uploads/1665320716881.png)
 
-## 二、数据备份云端 {#cloud-backup}
+## 二、数据备份云端 
 
 > 网站备份数据存储在服务器本地，可能会造成两个后果:
 >
@@ -59,11 +59,11 @@ description: 本文介绍了WordPress网站自动备份到云端（腾讯云COS�
 >
 > **把数据备份到云端，一方面可以释放本地的空间，另外可以解决本地数据异常的状况。**
 
-### 2.1、云端存储设置 {#cloud-storage-configuration-cos}
+### 2.1、云端存储设置 
 
 本文已经腾讯云的cos对象存储为例。参照《[服务器空间小？网站打开卡顿？为你的网站提个速](https://www.dulizhanseo.com/wangzhanyouhua-tengxunyun-cos-cloudflrea-cdn/)》中的《1.2、创建存储桶》和《1.3、创建访问权限》 ，获取存储资源的cos**存储桶名称/地域/SecretId/SecretKey**。
 
-### 2.2、添加远程存储 {#add-remote-storage}
+### 2.2、添加远程存储 
 
 A、我们进入appnode 的桌面，并点击“备份管理”
 
@@ -79,7 +79,7 @@ B、“添加远程存储”
 出现下图，说明远程存储已经添加成功
 ![AppNode远程存储管理列表显示已成功添加腾讯云COS](https://cos.files.maozhishi.com/wp-content/uploads/1665322815129.png)
 
-### 2.3、云端备份设置 {#configure-cloud-backup}
+### 2.3、云端备份设置 
 
 我们要把本地备份的**文件转移到云端（腾讯云COS），并释放本地的空间**。
 如下图，我们在“应用备份设置”中可以看待，文件是保存10天。
@@ -92,12 +92,12 @@ B、“添加远程存储”
 由于文件已经备份到云端，那么本地保留时间可以短一点，此处我设置的是保留3天
 ![启用备份文件复制到远程存储，选择腾讯云COS，设置本地保留3天](https://cos.files.maozhishi.com/wp-content/uploads/1665322994525.png)
 
-### 2.4、云端备份测试 {#test-cloud-backup}
+### 2.4、云端备份测试 
 
 我们进入网站的备份界面，点击“立即备份”，具体过程略过，备份完成后，我们可以看到，在备份文件列表中，除了本地有备份文件，远程也有备份。
 ![AppNode备份文件列表显示本地备份和已上传到云端的远程备份](https://cos.files.maozhishi.com/wp-content/uploads/1665323402125.png)
 
-## 三、一键还原网站 {#one-click-website-restore}
+## 三、一键还原网站 
 
 当你的网站损坏，或者数据异常，你可以找到出问题之前的备份文件进行还原。
 在备份文件列表页面，点击要还原文件下的“还原”

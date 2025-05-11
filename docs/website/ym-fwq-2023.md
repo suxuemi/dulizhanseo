@@ -11,7 +11,7 @@ description: 本文为服务器购买推荐指南，重点介绍腾讯云服务�
 
 ---
 
-## 一、服务器购买认证 {#server-purchase-authentication}
+## 一、服务器购买认证 
 
 首次购买服务器，要先右上角个人微信扫码注册认证，认证分为`个人认证`和`企业认证`。
 
@@ -23,13 +23,13 @@ description: 本文为服务器购买推荐指南，重点介绍腾讯云服务�
 
 ![腾讯云登录及认证页面截图](https://cos.files.maozhishi.com/小书匠/1685953401046.png)
 
-## 二、首选企业认证购买 {#enterprise-certification-purchase}
+## 二、首选企业认证购买 
 
 如果您是企业客户，可以进入[跨境电商独立站](https://laifa.xin/txy-kj)专区，购买**<u>折扣服务器</u>**！
 
 入口：**[https://laifa.xin/txy-kj](https://laifa.xin/txy-kj)**
 
-### 2.1根据自身需要购买服务器配置： {#choose-configuration-enterprise}
+### 2.1根据自身需要购买服务器配置： 
 
 - 准备做2个以内语言的独立站：选择<u>2核2G-30M-1T（60G空间）</u>
 - 准备做2个以上语言的独立站：选择<u>2核4G-30M-3T（100G空间）</u> **搭建多站无压力，一步到位！**
@@ -42,29 +42,29 @@ description: 本文为服务器购买推荐指南，重点介绍腾讯云服务�
 
 注意：一定要选择正确：**<span style="color: #fa541c; text-decoration: underline;">地区</span>**：硅谷和**<span style="color: #fa541c; text-decoration: underline;">镜像：随便选择，完成后需要重装镜像 OS 7.6</span>**
 
-### 2.2更换服务器镜像 {#change-server-image}
+### 2.2更换服务器镜像 
 
 - **点击总览找到已购买的服务器。**
 
-#### 2.2.1找到最近访问-轻量应用服务器 {#find-lighthouse-server}
+#### 2.2.1找到最近访问-轻量应用服务器 
 
 ![腾讯云控制台总览页面，指示“最近访问”中的“轻量应用服务器”入口](https://cos.files.maozhishi.com/小书匠/1685953401051.png)
 
-#### 2.2.2点击进入管理服务器 {#enter-server-management}
+#### 2.2.2点击进入管理服务器 
 
 ![腾讯云轻量应用服务器列表，点击服务器进入管理界面](https://cos.files.maozhishi.com/小书匠/1685953401052.png)
 
-#### 2.2.3点击右侧更多-重装系统 {#reinstall-system-step1}
+#### 2.2.3点击右侧更多-重装系统 
 
 ![腾讯云服务器管理界面，点击“更多”操作按钮，选择“重装系统”](https://cos.files.maozhishi.com/小书匠/1685953401053.png)
 
-#### 2.2.4选择CentOS 7.6 {#select-centos-76}
+#### 2.2.4选择CentOS 7.6 
 
 选择`centos 7.6` ，下拉点击确定即可。
 
 ![腾讯云重装系统弹窗，选择操作系统镜像为CentOS 7.6](https://cos.files.maozhishi.com/小书匠/1685953401054.png)
 
-## 三、个人认证购买 {#personal-certification-purchase}
+## 三、个人认证购买 
 
 进入购买专区：[https://laifa.xin/txy-ql](https://laifa.xin/txy-ql)
 
@@ -83,7 +83,7 @@ description: 本文为服务器购买推荐指南，重点介绍腾讯云服务�
 
 ![腾讯云个人购买服务器配置确认截图](https://cos.files.maozhishi.com/小书匠/1685953401059.png)
 
-## 四、加入建站社群 {#join-community}
+## 四、加入建站社群 
 
 <p style="text-align: center;">加入社群一起互助建站</p>
 <p style="text-align: center;"><img src="https://cos.files.maozhishi.com/小书匠/1673332867793.png" width="198" alt="加入社群交流二维码" /></p>

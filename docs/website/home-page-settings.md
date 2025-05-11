@@ -12,19 +12,19 @@ description: 本文解决了WordPress建站后，访问域名显示的不是预�
 >
 > 下面教大家怎么进行主页页面更换！
 
-## 1、打开自定义 {#open-customize}
+## 1、打开自定义 
 
 登录wordpress网站后台，登陆具有编辑权限的前端页面
 
 ![WordPress前端页面顶部管理栏，点击“自定义”按钮](https://cos.files.maozhishi.com/public/attachments/lfx/1669111684404.png)
 
-## 2、主页设置 {#homepage-settings}
+## 2、主页设置 
 
 进入自定义界面，下拉找到主页设置
 
 ![WordPress自定义界面侧边栏，找到并点击“主页设置”选项](https://cos.files.maozhishi.com/public/attachments/lfx/1669111684405.png)
 
-## 3、选择主页页面 {#select-homepage}
+## 3、选择主页页面 
 
 ![WordPress主页设置选项，在“主页显示”中选择一个静态页面，并从下拉菜单中选择指定的页面作为主页](https://cos.files.maozhishi.com/public/attachments/lfx/1669111684406.png)
 

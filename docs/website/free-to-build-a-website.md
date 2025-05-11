@@ -8,7 +8,7 @@ description: 本教程指引用户通过微信视频号、公众号文章和论�
 
 [**https://www.dulizhanseo.com/ym-fwq-2023/**](https://www.dulizhanseo.com/ym-fwq-2023/)
 
-## 一、建站视频：视频号 {#section-1-video-channel}
+## 一、建站视频：视频号 
 
 微信扫码关注#视频号:**不做头发的托尼老师** ![“不做头发的托尼老师”视频号二维码](https://cos.files.maozhishi.com/xp/xz1666335762160.jpg) 视频号主页，“**视频**”标签下的#建站与SEO优化指南
 
@@ -20,7 +20,7 @@ description: 本教程指引用户通过微信视频号、公众号文章和论�
 
 ![视频号教程列表截图，指示从底部开始](https://cos.files.maozhishi.com/xp/xz1666335762256.png)
 
-## 二、文章视频：公众号 {#section-2-official-account}
+## 二、文章视频：公众号 
 
 微信搜索或扫码#公众号：贸知事
 
@@ -44,7 +44,7 @@ description: 本教程指引用户通过微信视频号、公众号文章和论�
 
 按照顺序观看即可。
 
-## 三、问题反馈：论坛 {#section-3-forum-feedback}
+## 三、问题反馈：论坛 
 
 [https://bbs.maozhishi.com/t/dulizhan](https://bbs.maozhishi.com/t/dulizhan)
 

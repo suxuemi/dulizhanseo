@@ -10,7 +10,7 @@ description: CDN加速时，由于CDN的机制问题，导致网站获取到的i
 
 > 原理：CDN回源访问网站时，会带上HTTP_X_FORWARDED_FOR字段，这个字段是访客的真实IP信息。
 
-## 一、获取IP代码 {#get-ip-code}
+## 一、获取IP代码 
 
 >
 
@@ -34,7 +34,7 @@ $_SERVER['REMOTE_ADDR'] = $list[0];
 
 ```
 
-## 二、找到wp-config.php {#find-wp-config-php}
+## 二、找到wp-config.php 
 
 >
 
@@ -60,7 +60,7 @@ $_SERVER['REMOTE_ADDR'] = $list[0];
 
 ![AppNode文件管理器，点击编辑wp-config.php文件](https://cos.files.maozhishi.com/public/attachments/lfx/1664696614122.png)
 
-## 三、贴入代码 {#paste-code}
+## 三、贴入代码 
 
 >
 
@@ -92,7 +92,7 @@ $_SERVER['REMOTE_ADDR'] = $list[0];
 
 ```
 
-## 四、再次部署 {#redeploy-environment}
+## 四、再次部署 
 
 为了保证生效，建议对网站环境进行二次部署，进入appnode，找到对应的网站，在设置中点击“部署”
 
@@ -108,7 +108,7 @@ $_SERVER['REMOTE_ADDR'] = $list[0];
 
 >
 
-> ## 五、访问测试（非必要） {#access-test-optional}
+> ## 五、访问测试（非必要） 
 
 >
 

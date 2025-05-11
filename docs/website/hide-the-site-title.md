@@ -10,21 +10,21 @@ description: 本文解决了WordPress建站中部分用户不希望页面显示�
 ![网站页面显示标题“Home”](https://cos.files.maozhishi.com/public/attachments/lfx/1669976196185.png)![显示标题导致页面内容下移](https://cos.files.maozhishi.com/public/attachments/lfx/1669976196220.png)
 下拉之后才出现栏目这些![页面内容需要下拉才能看到](https://cos.files.maozhishi.com/public/attachments/lfx/1669976196278.png)
 
-## 第一步：编辑页面 {#step-one-edit-page}
+## 第一步：编辑页面 
 
 登录后台，到网站前端点击页面编辑
 ![WordPress前端页面，点击“编辑页面”](https://cos.files.maozhishi.com/public/attachments/lfx/1669976196279.png)
 
-## 第二步：点开页面设置 {#step-two-open-page-settings}
+## 第二步：点开页面设置 
 
 页面右上角找到设置
 ![WordPress编辑器右上角，点击设置（齿轮）图标](https://cos.files.maozhishi.com/public/attachments/lfx/1669976196280.png)
 
-## 第三步：找到页面标题 {#step-three-find-page-title}
+## 第三步：找到页面标题 
 
 ![在页面设置中找到“页面标题(Page Title)”选项](https://cos.files.maozhishi.com/public/attachments/lfx/1669976196281.png)
 
-## 第四步：选中禁止 {#step-four-select-disable}
+## 第四步：选中禁止 
 
 选中禁止，点击更新即可
 ![在页面标题设置中选择“禁止(Disable)”并点击更新](https://cos.files.maozhishi.com/public/attachments/lfx/1669976196282.png)

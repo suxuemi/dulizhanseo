@@ -9,9 +9,9 @@ permalink: /google-search-customer
 
 ![谷歌搜索框示意图](https://cos.files.maozhishi.com/public/attachments/lfx/1665509408998.png)
 
-## 一、基础语法 {#basic-syntax}
+## 一、基础语法 
 
-### 1.1、intitle：网页标题包含 {#intitle-page-title-contains}
+### 1.1、intitle：网页标题包含 
 
 我们以Google Workspace为例进行说明：[https://workspace.google.com/](https://workspace.google.com/)
 ![Google Workspace官网首页截图](https://cos.files.maozhishi.com/public/attachments/lfx/1665509408999.png)
@@ -31,7 +31,7 @@ intitle:"Business Apps & Collaboration Tools"
 
 ![谷歌搜索 intitle:"Business Apps & Collaboration Tools" 的结果页面](https://cos.files.maozhishi.com/public/attachments/lfx/1665509409131.png)
 
-### 1.2、inurl：网页链接包含 {#inurl-page-url-contains}
+### 1.2、inurl：网页链接包含 
 
 我们以Google workspace的价格页面为例进行说明，价格页面： [https://workspace.google.com/pricing.html](https://workspace.google.com/pricing.html)
 ![Google Workspace价格页面截图](https://cos.files.maozhishi.com/public/attachments/lfx/1665509409123.png)
@@ -48,7 +48,7 @@ intitle:Workspace AND inurl:pricing
 
 ![谷歌搜索 intitle:Workspace AND inurl:pricing 的结果页面](https://cos.files.maozhishi.com/public/attachments/lfx/1665509409128.png)
 
-### 1.3、intext：网页页面包含 {#intext-page-content-contains}
+### 1.3、intext：网页页面包含 
 
 我们同样以Google workspace的价格页面为例进，页面： [https://workspace.google.com/pricing.html](https://workspace.google.com/pricing.html)
 ![Google Workspace价格页面内容截图，包含文字"Choose your edition"](https://cos.files.maozhishi.com/public/attachments/lfx/1665509409130.png)
@@ -66,7 +66,7 @@ intitle:Workspace AND intext:"Choose your edition"
 通过这个公式，我们非常精准定位到Google Workspace的价格（`pricing`）页面。关于`"Choose your edition"`中双引号引用，我们在下一个语法就讲。
 ![谷歌搜索 intitle:Workspace AND intext:"Choose your edition" 的结果页面](https://cos.files.maozhishi.com/public/attachments/lfx/1665509409129.png)
 
-### 1.4、""：严格匹配词组 {#double-quotes-exact-phrase-match}
+### 1.4、""：严格匹配词组 
 
 `""` 英文的双引号，严格匹配一组词 ，以为`"Choose your edition"`为例
 
@@ -83,14 +83,14 @@ intitle:Workspace AND intext:"Choose your edition"
 
 ![谷歌搜索 "led lighting" (有引号) 的结果数量显著减少](https://cos.files.maozhishi.com/public/attachments/lfx/1665509409125.png)
 
-### 1.5、AND：同时符合多条件 {#and-multiple-conditions}
+### 1.5、AND：同时符合多条件 
 
 `AND`用中文表达就是`且`的意思，
 
 - `A AND B`：搜索出来的结果既要符合有A又要有B。
 - `高挑 AND 身材 AND 女生`：搜索出来的结果中，必须要同时出现`高挑`/`身材`/`女生`3个关键词，只要`标题`/`网址`/`正文`中任意包含上述3个关键词即可。
 
-### 1.6、site：仅搜某网站 {#site-search-specific-site}
+### 1.6、site：仅搜某网站 
 
 我们以领英（linkedin.com）为例，我们只想通过谷歌搜索领英的内容，那么语法是
 
@@ -123,4 +123,4 @@ site:linkedin.com intitle:"led lighting" AND intext:shenzhen
 这个搜索结果有`3080条`，说明深圳led lighting相关的企业在全球占据了相当大的比重。
 ![谷歌搜索 site:linkedin.com intitle:"led lighting" AND intext:shenzhen 的结果页面](https://cos.files.maozhishi.com/public/attachments/lfx/1665509409127.png)
 
-## 二、综合应用 {#comprehensive-application}
+## 二、综合应用 

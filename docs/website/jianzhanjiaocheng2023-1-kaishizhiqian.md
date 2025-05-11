@@ -67,7 +67,7 @@ appnode 和 blocksy pro 的序列号，可以联系我们免费领。
 
 ![微信视频号“不做头发的托尼老师”二维码](https://cos.files.maozhishi.com/public/attachments/xsj/2023-11-14-1699950533946.png)
 
-### 2.3、查看专辑 {#view-album}
+### 2.3、查看专辑 
 
 微信扫码关注后，在“视频”下“<u>独立站搭建</u>”进入专辑
 
@@ -77,9 +77,9 @@ appnode 和 blocksy pro 的序列号，可以联系我们免费领。
 
 ![微信视频号“独立站搭建”专辑列表截图，指示从第22个视频开始观看](https://cos.files.maozhishi.com/public/attachments/xsj/2023-11-14-1699950533950.png)
 
-## 三、常见问题 {#common-issues}
+## 三、常见问题 
 
-### 3.1、怎么在电脑端观看教程? {#watch-tutorial-on-pc}
+### 3.1、怎么在电脑端观看教程? 
 
 转发视频给朋友，或者是自己微信小号
 
@@ -93,7 +93,7 @@ appnode 和 blocksy pro 的序列号，可以联系我们免费领。
 
 ![微信电脑版截图，展示在聊天窗口中打开视频号视频](https://cos.files.maozhishi.com/public/attachments/xsj/2023-11-14-1699950533954.png)
 
-## 四、联系我们 {#contact-us}
+## 四、联系我们 
 
 有问题或者是入群讨论，请扫码联系。
 

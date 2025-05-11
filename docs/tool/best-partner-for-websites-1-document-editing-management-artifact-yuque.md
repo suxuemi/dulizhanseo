@@ -4,7 +4,7 @@ link: https://www.dulizhanseo.com/best-partner-for-websites-1-document-editing-m
 description: 日常办公学习经常遇到：产品或文章多，让文档管理非常困难，需要编辑文档上传多个图片时，能否批量上传？写文档适，能否实现截图粘贴上传云端？这样就避免保存本地，能否让网站的图床显示为自己的域名？能否让客户访问我的图片也是嗖嗖的？
 ---
 
-## 我们建站经常遇到以下几个问题： {#common-website-building-issues}
+## 我们建站经常遇到以下几个问题： 
 
 - 产品或文章多，本地文档太多，**能否让文档管理更有条理？**
 - 编辑文档上传多个图片时，需要挨个选择上传，**能否批量上传？**
@@ -31,7 +31,7 @@ description: 日常办公学习经常遇到：产品或文章多，让文档管�
 >
 > 建议大家使用桌面端：[https://www.yuque.com/install/desktop](https://www.yuque.com/install/desktop)
 
-## 1.1、知识库 {#knowledge-base}
+## 1.1、知识库 
 
 作为外贸人，我们每天要面对各种文档，以建站为例，我们要不断更新各种文档，如果用word在本地进行管理，那么会产生很多文档，大量的文档也会当你管理更加困难，这里我们以询盘网为例，我们创建一个简单的文档管理知识库。
 询盘网预计规划以下模块：
@@ -44,17 +44,17 @@ description: 日常办公学习经常遇到：产品或文章多，让文档管�
 - 社媒营销（social media）
 - 工具分享（tool sharing）
 
-### 新建知识库 {#create-knowledge-base}
+### 新建知识库 
 
 进入“我的知识库”:[https://www.yuque.com/dashboard/my_books](https://www.yuque.com/dashboard/my_books) (未注册请先注册)
 ![语雀“我的知识库”页面，点击新建知识库按钮](https://cos.files.maozhishi.com/public/attachments/lfx/1665480892841.png)
 
-### 设置知识库 {#configure-knowledge-base}
+### 设置知识库 
 
 输入知识库名称，设置仅自己可见即可，如果你想所有人都可以看到，那么你可以选择其他权限。
 ![新建语雀知识库弹窗，输入名称并设置权限](https://cos.files.maozhishi.com/public/attachments/lfx/1665480892834.png)
 
-## 1.2、目录设置 {#directory-settings}
+## 1.2、目录设置 
 
 新建的知识库是一个空白的，这时候我们可以点击右上角的“目录管理”，进行目录相关的设置
 ![空白语雀知识库，点击右上角“目录管理”](https://cos.files.maozhishi.com/public/attachments/lfx/1665480892838.png)
@@ -86,39 +86,39 @@ description: 日常办公学习经常遇到：产品或文章多，让文档管�
 我们返回知识库界面看到是这样的
 ![返回知识库界面，显示已创建的目录结构](https://cos.files.maozhishi.com/public/attachments/lfx/1665480892851.png)
 
-## 1.3、权限分享 {#permission-sharing}
+## 1.3、权限分享 
 
 我们点击右上角"新建"旁的三个点的图标，在下拉中我们选择“权限”
 ![语雀知识库右上角菜单，选择“权限”设置](https://cos.files.maozhishi.com/public/attachments/lfx/1665480892843.png)
 点击右上角的“添加”，我们可以相关的权限设置，把链接发给同事，同事即可加入进行协作。
 ![语雀知识库权限设置，添加成员进行协作](https://cos.files.maozhishi.com/public/attachments/lfx/1665480892844.png)
 
-## 1.4、文档编辑 {#document-editing}
+## 1.4、文档编辑 
 
 如果我们需要在“工具分享”下的“Windows”目录中，点击“+”，选择“新建文档”
 ![在指定目录下点击“+”号，选择“新建文档”](https://cos.files.maozhishi.com/public/attachments/lfx/1665480892854.png)
 默认编辑界面是这样，我们可以看到语雀编辑栏有很多工具。
 ![语雀文档编辑器界面及工具栏](https://cos.files.maozhishi.com/public/attachments/lfx/1665480892852.png)
 
-## 1.5、上传图片 {#upload-images}
+## 1.5、上传图片 
 
 我们重点来讲下图片是如何上传到语雀，你可以在工具栏选择本地图片上传，也可以直接复制本地图片粘贴上传。
 
-### 选图上传+多图上传 {#select-and-upload-multiple-images}
+### 选图上传+多图上传 
 
 我们点击编辑界面左上方的加号（+），在下拉中选择图片，在弹出的文件选择器中，我们可以选择要上传的图片，注意：摁住ctrl是可以选择多张图片的（如果是语雀客户端编辑，是可以直接选择多张图片，无需摁住ctrl）
 ![语雀编辑器插入菜单，选择“图片”进行上传](https://cos.files.maozhishi.com/public/attachments/lfx/1665480892845.png)
 这是上传后的效果
 ![语雀编辑器中已上传的图片](https://cos.files.maozhishi.com/public/attachments/lfx/1665480892853.png)
 
-### 粘贴上传 {#paste-upload}
+### 粘贴上传 
 
 我们在实际编辑过程中，我们经常要截图，如果能截图后，在编辑时直接粘贴上传，那么就会非常方便。我们可以通过ctrl+v进行粘贴，也可以通过
 ![语雀编辑器支持直接粘贴图片上传](https://cos.files.maozhishi.com/public/attachments/lfx/1665480892846.png)
 粘贴后，我们就可以看到如下图的效果。
 ![粘贴上传图片后的效果](https://cos.files.maozhishi.com/public/attachments/lfx/1665480892848.png)
 
-## 1.6、文章大纲 {#article-outline}
+## 1.6、文章大纲 
 
 > 我们在编辑时，可以在右侧预览到文档的大纲，这样可以让我们梳理文档时，更有条理性。
 
@@ -128,11 +128,11 @@ description: 日常办公学习经常遇到：产品或文章多，让文档管�
 
 ![本文在语雀编辑器中的编辑界面及大纲示例](https://cos.files.maozhishi.com/public/attachments/lfx/1665480892850.png)
 
-## 1.7、查看源码（html） {#view-source-html}
+## 1.7、查看源码（html） 
 
 > wordpress编辑文章可以以html的格式，同样，语雀也是可以生成html代码的，编写好的语雀文章以html代码的形式粘贴到wordpress即可（注意：语雀开启了图片防盗链，如果你文章中有图片，还需要进行图片转移操作，请查看下一章节）
 
-### 获取链接 {#get-link}
+### 获取链接 
 
 > 此处要注意，文章一定要先发布(点击右上角的更新或者发布按钮)
 
@@ -172,7 +172,7 @@ https://www.yuque.com/qiudiss/ai9u05/tnmuw0/html
 
 ![在浏览器中预览语雀文档的HTML源码格式](https://cos.files.maozhishi.com/public/attachments/lfx/1665480893064.png)
 
-### 保存代码（html） {#save-code-html}
+### 保存代码（html） 
 
 我们先保存下html代码备用
 
@@ -191,7 +191,7 @@ https://www.yuque.com/qiudiss/ai9u05/tnmuw0/html
 </div>
 ```
 
-### 测试预览 {#test-preview}
+### 测试预览 
 
 语雀的图片是不允许站外引用的，所以，如果你直接复制代码带你网站编辑，你会发现图片是无法打开的。
 

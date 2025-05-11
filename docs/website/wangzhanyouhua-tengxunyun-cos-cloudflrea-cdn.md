@@ -12,9 +12,9 @@ description: 利用第三方对象存储（腾讯云对象存储COS服务）和�
 
 ![网站通过腾讯云COS存储和Cloudflare CDN加速的架构示意图](https://cos.files.maozhishi.com/public/attachments/lfx/1664645568634.jpg)
 
-## 一、云端存储配置 {#cloud-storage-configuration}
+## 一、云端存储配置 
 
-### 1.1、COS官网 {#cos-official-website}
+### 1.1、COS官网 
 
 腾讯云对象存储cos：**[点此进入](https://laifa.xin/txy-cos)**
 
@@ -48,7 +48,7 @@ description: 利用第三方对象存储（腾讯云对象存储COS服务）和�
 
 ![点击进入对象存储COS控制台](https://cos.files.maozhishi.com/public/attachments/lfx/1664645568636.jpg)
 
-### 1.2、创建存储桶 {#create-bucket}
+### 1.2、创建存储桶 
 
 ---
 
@@ -110,7 +110,7 @@ description: 利用第三方对象存储（腾讯云对象存储COS服务）和�
 
 ![存储桶概览显示基本信息和访问域名](https://cos.files.maozhishi.com/public/attachments/lfx/1664645568744.jpg)
 
-### 1.3、创建访问权限 {#create-access-credentials}
+### 1.3、创建访问权限 
 
 为了保证我们网站能正常上传文件到cos，那么我们必须生成对应的全选
 
@@ -165,13 +165,13 @@ SecretId: AKIDS****p8D3e2B6mbEk******UGn5IH3a
 SecretKey: LSM3****cy85nGVWJrB****kodEcon
 ```
 
-## 二、配置加速 {#configure-acceleration}
+## 二、配置加速 
 
 由于我们是使用cloudflare进行全球加速的，那么我们需要分配一个单独的子域名进行加速。
 
 我们网站的域名是xunpan.wang ，我们专门分配一个加速域名txy.xunpan.wang用于文件以及图片的访问。
 
-### 2.1、添加“自定义源站域名” {#add-custom-origin-domain}
+### 2.1、添加“自定义源站域名” 
 
 ---
 
@@ -189,7 +189,7 @@ SecretKey: LSM3****cy85nGVWJrB****kodEcon
 
 ![输入自定义源站域名txy.xunpan.wang并保存](https://cos.files.maozhishi.com/public/attachments/lfx/1664645568822.jpg)
 
-### 2.2、添加域名解析记录 {#add-dns-record}
+### 2.2、添加域名解析记录 
 
 添加后，并不是能直接访问的，我们还需要添加解析记录，同时为了解决“全球加速”问题和https访问问题，那么我们在解析时候，要注意：
 
@@ -202,7 +202,7 @@ SecretKey: LSM3****cy85nGVWJrB****kodEcon
 
 ![在Cloudflare中为txy添加CNAME解析记录指向COS域名，并开启代理](https://cos.files.maozhishi.com/public/attachments/lfx/1664645568652.jpg)
 
-### 2.3、文件访问测试 {#test-file-access}
+### 2.3、文件访问测试 
 
 通过上文，我们如何确定我们是配置成功了呢？
 
@@ -242,9 +242,9 @@ SecretKey: LSM3****cy85nGVWJrB****kodEcon
 
 ![浏览器成功通过加速域名下载测试文件，验证配置成功](https://cos.files.maozhishi.com/public/attachments/lfx/1664645568824.jpg)
 
-## 三、网站后台配置 {#website-backend-configuration}
+## 三、网站后台配置 
 
-### 3.1、安装插件 {#install-plugin-sync-cos}
+### 3.1、安装插件 
 
 进入网站后台安装插件页面，搜索并安装“Sync QCloud COS”
 
@@ -253,7 +253,7 @@ SecretKey: LSM3****cy85nGVWJrB****kodEcon
 
 ![在WordPress后台搜索并安装“Sync QCloud COS”插件](https://cos.files.maozhishi.com/public/attachments/lfx/1664645568825.jpg)
 
-### 3.2、腾讯云COS设置 {#tencent-cloud-cos-settings}
+### 3.2、腾讯云COS设置 
 
 启用了“Sync QCloud COS”以后，我们 进入插件进行设置。
 
@@ -285,9 +285,9 @@ SecretKey: LSM3****cy85nGVWJrB****kodEcon
 **复制下述链接到浏览器测试打开情况**
 [https://txy.xunpan.wang/2022/10/1664621852620.webp](https://txy.xunpan.wang/2022/10/1664621852620.webp)
 
-## 四、相关问题 {#related-issues}
+## 四、相关问题 
 
-### 4.1、原数据未转移，导致图片显示异常 {#data-not-migrated-image-display-error}
+### 4.1、原数据未转移，导致图片显示异常 
 
 <!-- 注意：原标题编号为3.1，根据上下文调整为5.1 -->
 
@@ -296,7 +296,7 @@ SecretKey: LSM3****cy85nGVWJrB****kodEcon
 
 ---
 
-#### A：问题特征 {#issue-symptoms}
+#### A：问题特征 
 
 有小伙伴反馈，参照以上教程操作后，网站图片都挂掉了
 ![网站前端图片显示异常，出现占位符](https://cos.files.maozhishi.com/wp-content/uploads/1665465016263.png)
@@ -311,7 +311,7 @@ SecretKey: LSM3****cy85nGVWJrB****kodEcon
 **我们随意点开几个图片，可以看到对应的链接，我们去cos中查找，发现文件并不存在**
 ![媒体库图片详情显示COS路径，但文件实际未上传至COS](https://cos.files.maozhishi.com/wp-content/uploads/1665465413650.png)
 
-#### B：问题定位 {#issue-diagnosis}
+#### B：问题定位 
 
 我们可以看到这个域名并不是和网站域名一致，而是我们之前新配置的专门用于图片加速的域名。
 
@@ -319,7 +319,7 @@ SecretKey: LSM3****cy85nGVWJrB****kodEcon
 
 注意：静态文件是存储在网站根目录的`/wp-content/uploads` 文件夹下，那么我们也需要进入服务器找到网站对应的文件夹，整个打包转移到COS中
 
-#### C：下载文件 {#download-files}
+#### C：下载文件 
 
 **我们需要下载需转移的文件（`/wp-content/uploads` 文件夹）**
 我们进入appnode后台，找到对应网站的文件目录，点击“文件”即可进入文件管理界面
@@ -344,7 +344,7 @@ www是该网站的根目录，点击www进入![进入网站根目录下的www文
 这样就可以把uploads.zip压缩包下载到本地
 ![压缩完成，选中uploads.zip文件准备下载](https://cos.files.maozhishi.com/wp-content/uploads/1665466503329.png)
 
-#### D.解决问题（文件存储于cos根目录） {#solution-files-in-cos-root}
+#### D.解决问题（文件存储于cos根目录） 
 
 **由于我们上文教程中设置的文件夹是根目录，意思是文件传到cos是传到cos最上一级中**
 **那么uploads文件夹中的文件内容也要传到cos 的根目录**
@@ -365,7 +365,7 @@ www是该网站的根目录，点击www进入![进入网站根目录下的www文
 
 ![COS存储桶根目录显示已上传的文件和文件夹](https://cos.files.maozhishi.com/wp-content/uploads/1665485336238.png)
 
-#### F.测试访问 {#test-access-after-fix}
+#### F.测试访问 
 
 <!-- 注意：原标题编号为D，逻辑上应在E之后，调整为F -->
 
@@ -373,7 +373,7 @@ www是该网站的根目录，点击www进入![进入网站根目录下的www文
 
 ![WordPress后台媒体库图片恢复正常显示](https://cos.files.maozhishi.com/wp-content/uploads/1665485394258.png)
 
-#### E.补充说明（文件存储于COS非根目录） {#additional-notes-files-not-in-cos-root}
+#### E.补充说明（文件存储于COS非根目录） 
 
 <!-- 注意：原标题编号为E，逻辑上调整到F之前 -->
 
